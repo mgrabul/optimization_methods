@@ -54,8 +54,9 @@ https://code.visualstudio.com/docs/python/python-quick-start
 * https://marketplace.visualstudio.com/items?itemName=ban.spellright
 * https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 
-## to pdf
+## Convert to pdf and html
 ```bash
 jupyter nbconvert --to pdf optimizationmethods.ipynb
+jupyter nbconvert --to html optimizationmethods.ipynb
 ```
 
