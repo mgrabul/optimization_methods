@@ -1,0 +1,44 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Python Introduction}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Basic Python commands}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Declaring variables in Python}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Basic data types in Python}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Basic arithmetic operations in Python}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}If - else conditions in Python}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Loops and iterations in Python}{10}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Functions in python}{12}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Libraries and modules}{13}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Logical Operators}{14}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Plotting Functions}{15}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Basic Mathematical Functions}{21}{subsection.2.11}%
+\contentsline {subsubsection}{\numberline {2.11.1}Custom function}{21}{subsubsection.2.11.1}%
+\contentsline {subsubsection}{\numberline {2.11.2}\texttt {Sympy}-library}{21}{subsubsection.2.11.2}%
+\contentsline {section}{\numberline {3}Arrays, Matrices, and Elements of Linear Algebra in Python}{24}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Standard operations with lists in Python}{24}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Numpy library, standard operations}{26}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Linear algebra with \texttt {Numpy}}{28}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Transposed vectors and matrices}{29}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Dot Product of Vectors and Product of Matrices}{31}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Cross product}{33}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Determinant of a Matrix}{35}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Unit/Identity Matrix and Inverse Matrix}{35}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}Eigenvalue and Eigenvectors of a matrix}{39}{subsubsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.7}Solving equations}{40}{subsubsection.3.3.7}%
+\contentsline {subsubsection}{\numberline {3.3.8}Exercises with \texttt {np}}{42}{subsubsection.3.3.8}%
+\contentsline {section}{\numberline {4}Optimization, approximation algorithms and the \texttt {scipy.optimize} library}{46}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Golden Search}{47}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Newton's Method}{50}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Gradient method}{57}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Gradient with step adjustment, Steepest descent}{59}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Linear programming}{63}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Simplex algorithm}{65}{subsubsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.6}Two phase simplex}{69}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Solving linear program with \texttt {scipy.optimize.linprog}}{73}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Bibliography}{75}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Python Tutorial}{75}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Linear Algebra}{75}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Optimization Methods}{75}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Simplex Method}{75}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Libraries}{76}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Python}{76}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}.md}{76}{subsection.6.2}%

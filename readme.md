@@ -63,6 +63,7 @@ jupyter nbconvert --to html optimizationmethods.ipynb
 ## Convert to word base
 ```bash
 
+# Version 1
 # initially convert to .md
 jupyter nbconvert --to markdown optimizationmethods.ipynb
 
@@ -72,5 +73,12 @@ pandoc optimizationmethods.md -o optimizationmethods.docx
 # convert to word with table of content
 pandoc optimizationmethods.md -o optimizationmethods.docx --toc --toc-depth=3
 
+# Version 2
+jupyter nbconvert --to latex optimizationmethods.ipynb
+
+pandoc optimizationmethods.tex -o optimizationmethods.docx --toc --toc-depth=3
+
 ```
+
+
 
