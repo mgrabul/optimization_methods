@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>optimizationmethods</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Optimization methods</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7482,7 +7482,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><a href="https://colab.research.google.com/github/mgrabul/optimization_methods/blob/main/optimizationmethods.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
+<!-- <a href="https://colab.research.google.com/github/mgrabul/optimization_methods/blob/main/optimizationmethods.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> -->
 </div>
 </div>
 </div>
@@ -7493,7 +7493,19 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Python-Introduction">Python Introduction<a class="anchor-link" href="#Python-Introduction">¶</a></h2><p>Python is a general-purpose high-level programming language. It was invented in the late '80s, and its current major version is 3. Important features and characteristics of Python include:</p>
+<p>\tableofcontents</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>\newpage</p>
+<h1 id="Python-Introduction">Python Introduction<a class="anchor-link" href="#Python-Introduction">¶</a></h1><p>Python is a general-purpose high-level programming language. It was invented in the late '80s, and its current major version is 3. Important features and characteristics of Python include:</p>
 <ul>
 <li>Object-oriented</li>
 <li>Dynamically typed</li>
@@ -7503,7 +7515,7 @@ a.anchor-link {
 <li>First-class functions</li>
 <li>Higher-order functions</li>
 </ul>
-<p>Python code is interpreted, meaning it is transformed into bytecode one line at a time during execution. There is no separate compile phase, so no compile time is needed. Popular uses of Python include scripting and automation, microservices, statistics, and machine learning.</p>
+<p>Python code is interpreted, meaning it is transformed into byte code one line at a time during execution. There is no separate compile phase, so no compile time is needed. Popular uses of Python include scripting and automation, microservices, statistics, and machine learning.</p>
 <p>Due to its open-source nature and well-developed libraries for computation and visualization, such as NumPy and Matplotlib, Python has become quite popular in math-related fields, especially in universities and academia. It has increasingly replaced previously well-established software like "Wolfram Mathematica" and "MATLAB."</p>
 </div>
 </div>
@@ -7515,7 +7527,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Basic-Python-commands">Basic Python commands<a class="anchor-link" href="#Basic-Python-commands">¶</a></h3>
+<p>\newpage</p>
+<h2 id="Basic-Python-commands">Basic Python commands<a class="anchor-link" href="#Basic-Python-commands">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7537,7 +7550,7 @@ Printing is done with the function <code>print</code>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [95]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Print a string</span>
@@ -7577,7 +7590,7 @@ Printing is done with the function <code>print</code>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [96]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Concatenating and printing strings</span>
@@ -7609,7 +7622,7 @@ Concatenating Hello and World with +:  Hello  World
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Declaring-variables-in-Python">Declaring variables in Python<a class="anchor-link" href="#Declaring-variables-in-Python">¶</a></h3>
+<h2 id="Declaring-variables-in-Python">Declaring variables in Python<a class="anchor-link" href="#Declaring-variables-in-Python">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7631,7 +7644,7 @@ Concatenating Hello and World with +:  Hello  World
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [97]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
@@ -7680,7 +7693,7 @@ y is:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [98]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
@@ -7713,8 +7726,8 @@ y is:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Similarly, a string can be formatted into two lines using \n as a line break.</p>
-<p><strong>Example</strong>. Print one string in two lines using the \n line brake.</p>
+<p>Similarly, a string can be formatted into two lines using <code>"\n"</code> as a line break.</p>
+<p><strong>Example</strong>. Print one string in two lines using the <code>"\n"</code> line brake.</p>
 </div>
 </div>
 </div>
@@ -7723,10 +7736,10 @@ y is:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [99]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"To print in a new line use </span><span class="se">\\</span><span class="s2">n </span><span class="se">\n</span><span class="s2"> The following text will be printed in a new line:</span><span class="se">\n</span><span class="s2">'text in a new line'"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"To print in a new line use </span><span class="se">\\</span><span class="s2">n </span><span class="se">\\</span><span class="s2">n The following text will be printed in a new line:</span><span class="se">\\</span><span class="s2">n'text in a new line'"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7739,9 +7752,7 @@ y is:
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>To print in a new line use \n 
- The following text will be printed in a new line:
-'text in a new line'
+<pre>To print in a new line use \n \n The following text will be printed in a new line:\n'text in a new line'
 </pre>
 </div>
 </div>
@@ -7754,7 +7765,7 @@ y is:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Basic-data-types-in-Python">Basic data types in Python<a class="anchor-link" href="#Basic-data-types-in-Python">¶</a></h3><ul>
+<h2 id="Basic-data-types-in-Python">Basic data types in Python<a class="anchor-link" href="#Basic-data-types-in-Python">¶</a></h2><ul>
 <li>Text Type:  str</li>
 <li>Numeric Types:  int, float, complex</li>
 <li>Sequence Types: list, tuple, range</li>
@@ -7773,7 +7784,7 @@ y is:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Strings, datatypes that hold text.</span>
@@ -7860,7 +7871,7 @@ y is:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Basic-arithmetic-operations-in-Python">Basic arithmetic operations in Python<a class="anchor-link" href="#Basic-arithmetic-operations-in-Python">¶</a></h3><p>Python provides several built-in operators for basic arithmetic operations. These are the most common ones:</p>
+<h2 id="Basic-arithmetic-operations-in-Python">Basic arithmetic operations in Python<a class="anchor-link" href="#Basic-arithmetic-operations-in-Python">¶</a></h2><p>Python provides several built-in operators for basic arithmetic operations. These are the most common ones:</p>
 <ul>
 <li>Addition (+): Adds two numbers together.</li>
 <li>Subtraction (-): Subtracts one number from another.</li>
@@ -7879,7 +7890,7 @@ y is:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [101]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Addition</span>
@@ -7934,7 +7945,7 @@ Exponentiation: 8
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="If---else-conditions-in-Python">If - else conditions in Python<a class="anchor-link" href="#If---else-conditions-in-Python">¶</a></h3><p>The general form of an <code>if-else</code> condition in Python is:</p>
+<h2 id="If---else-conditions-in-Python">If - else conditions in Python<a class="anchor-link" href="#If---else-conditions-in-Python">¶</a></h2><p>The general form of an <code>if-else</code> condition in Python is:</p>
 <pre><code>if &lt;bool&gt;:
  &lt;code block&gt;
 elif &lt;bool&gt;:
@@ -7954,7 +7965,7 @@ else:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [102]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">i_</span><span class="p">:</span><span class="nb">int</span> <span class="o">=</span> <span class="mi">12</span>
@@ -7992,7 +8003,8 @@ else:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Loops-and-iterations-in-Python">Loops and iterations in Python<a class="anchor-link" href="#Loops-and-iterations-in-Python">¶</a></h3><p>As in other languages, commonly used loops in Python are <code>while</code> and <code>for</code> loops. Additionally, Python supports functional programming, and it is not uncommon for functions to be used instead of declarative loops for interactions, especially when working with data collections.</p>
+<p>\newpage</p>
+<h2 id="Loops-and-iterations-in-Python">Loops and iterations in Python<a class="anchor-link" href="#Loops-and-iterations-in-Python">¶</a></h2><p>As in other languages, commonly used loops in Python are <code>while</code> and <code>for</code> loops. Additionally, Python supports functional programming, and it is not uncommon for functions to be used instead of declarative loops for interactions, especially when working with data collections.</p>
 </div>
 </div>
 </div>
@@ -8016,7 +8028,7 @@ else:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [103]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="s2">"this is the last element of the list"</span><span class="p">]</span>
@@ -8066,7 +8078,7 @@ this is the last element of the list
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [104]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="s2">"this is the last element of the list"</span><span class="p">]</span>
@@ -8102,6 +8114,7 @@ this is the last element of the list
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Python supports functional programming, so it is becoming increasingly popular to use functions instead of loops for iterating over data structures. Built-in functions like <code>map</code> and <code>reduce</code> are used to apply a function to the elements of a collection, such as a list or set. This style of writing code is called declarative. In contrast, imperative programming uses loops like <code>while</code> or <code>for</code> to iterate over data structures. More detailed examples will be shown in the functions section of this seminar work.</p>
+<p>\newpage</p>
 <p><strong>Example</strong>. Using the map function print the elements of a list <code>l = [1,2,3,"this is the last element of the list"]</code> in Python</p>
 </div>
 </div>
@@ -8111,7 +8124,7 @@ this is the last element of the list
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [105]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">"this is the last element of the list"</span><span class="p">]</span>
@@ -8137,7 +8150,7 @@ this is the last element of the list
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[105]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>[None, None, None, None]</pre>
 </div>
@@ -8151,7 +8164,8 @@ this is the last element of the list
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Functions-in-python">Functions in python<a class="anchor-link" href="#Functions-in-python">¶</a></h3><p>Depending on how they are defined, there are generally two types of functions in Python: lambda functions and standard functions. Standard functions, or just functions, are traditional and quite flexible, but they require more code to be defined. Lambda functions, on the other hand, require less code but are not as flexible, as they are limited to single-line expressions.</p>
+<p>\newpage</p>
+<h2 id="Functions-in-python">Functions in python<a class="anchor-link" href="#Functions-in-python">¶</a></h2><p>Depending on how they are defined, there are generally two types of functions in Python: lambda functions and standard functions. Standard functions, or just functions, are traditional and quite flexible, but they require more code to be defined. Lambda functions, on the other hand, require less code but are not as flexible, as they are limited to single-line expressions.</p>
 <p>This seminar work will not use lambda functions, as they can be completely replaced by standard functions. In general, lambda functions are used with predefined functions like <code>map</code> or <code>reduce</code> when iterating over data structures. They are often inlined with these functions, which also contributes to code readability.</p>
 <p>Standard function</p>
 <pre><code>def function_name(parameters):
@@ -8175,7 +8189,7 @@ this is the last element of the list
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [106]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">sum_standard_function</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
@@ -8269,9 +8283,10 @@ Using Lambda Function: 8
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Libraries-and-modules">Libraries and modules<a class="anchor-link" href="#Libraries-and-modules">¶</a></h4><p>Basic arithmetic operations with functions in Python include finding the absolute value using <code>abs</code> and calculating the square root using <code>math.sqrt</code>. The <code>abs</code> function is part of Python's standard library, while <code>sqrt</code> is part of the math library, which is commonly used but not included in the base library. Libraries are collections of modules, and modules are collections of functions and classes that are used for similar purposes. The math library needs to be imported before it is used. To do so, write <code>import math</code> before using it. Once imported, the functions and classes inside the library can be used by accessing them with dot notation. For example, <code>math.sqrt(9)</code> will return 3 as it calculates the square root of nine.</p>
+<h3 id="Libraries-and-modules">Libraries and modules<a class="anchor-link" href="#Libraries-and-modules">¶</a></h3><p>Basic arithmetic operations with functions in Python include finding the absolute value using <code>abs</code> and calculating the square root using <code>math.sqrt</code>. The <code>abs</code> function is part of Python's standard library, while <code>sqrt</code> is part of the math library, which is commonly used but not included in the base library. Libraries are collections of modules, and modules are collections of functions and classes that are used for similar purposes. The math library needs to be imported before it is used. To do so, write <code>import math</code> before using it. Once imported, the functions and classes inside the library can be used by accessing them with dot notation. For example, <code>math.sqrt(9)</code> will return 3 as it calculates the square root of nine.</p>
 <p>Modules, on the other hand, are files containing Python code within a library. For example, when using <code>import matplotlib.pyplot</code>, <code>pyplot</code> is a module in the <code>matplotlib</code> library that is used for plotting data. Modules and libraries can be imported with aliases instead of their full names. To define an alias for the module <code>matplotlib.pyplot</code>, the following code line can be used: <code>import matplotlib.pyplot as plt</code>.</p>
-<p><em>As with every programming language, the necessary libraries need to be imported and be part of the dependencies. The advantage of using Google Colab is that it handles the dependencies itself, so only an import statement for the required library is necessary.</em></p>
+<p><em>As with every programming language, the necessary libraries need to be imported and be part of the dependencies. The advantage of using Google Colab is that it handles the dependencies itself, so only an import statement for the required library is necessary.</em>
+\newpage</p>
 <p><strong>Example</strong>: Given a number, calculate the square root of the absolute value of that number.</p>
 </div>
 </div>
@@ -8319,7 +8334,7 @@ Using Lambda Function: 8
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Logical-Operators">Logical Operators<a class="anchor-link" href="#Logical-Operators">¶</a></h3><p>Python uses <code>True</code> and <code>False</code> as boolean values.</p>
+<h2 id="Logical-Operators">Logical Operators<a class="anchor-link" href="#Logical-Operators">¶</a></h2><p>Python uses <code>True</code> and <code>False</code> as boolean values.</p>
 <p>The most popular logical operators are:</p>
 <ul>
 <li><code>and</code></li>
@@ -8332,12 +8347,16 @@ Using Lambda Function: 8
 <li><code>&gt;</code>, <code>&gt;=</code></li>
 <li><code>==</code></li>
 </ul>
-<p><strong>Examples</strong>:</p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li>Given two numbers <code>a</code> and <code>b</code>, write a function that will return the larger number.</li>
-<li>Given three numbers <code>a</code>, <code>b</code>, and <code>c</code>, write a function that will return the largest number.</li>
-<li>Given two numbers <code>a</code> and <code>b</code>, write a function that returns <code>True</code> if <code>a &gt; b</code>.</li>
-<li>Write a function that, given a number <code>n</code>, prints the first <code>n</code> numbers.</li>
+<li><p>Given two numbers <code>a</code> and <code>b</code>, write a function that will return the larger number.</p>
+</li>
+<li><p>Given three numbers <code>a</code>, <code>b</code>, and <code>c</code>, write a function that will return the largest number.</p>
+</li>
+<li><p>Given two numbers <code>a</code> and <code>b</code>, write a function that returns <code>True</code> if <code>a &gt; b</code>.</p>
+</li>
+<li><p>Write a function that, given a number <code>n</code>, prints the first <code>n</code> numbers.</p>
+</li>
 </ol>
 </div>
 </div>
@@ -8414,12 +8433,15 @@ First 10 positive integers:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Plotting-a-Function">Plotting a Function<a class="anchor-link" href="#Plotting-a-Function">¶</a></h3><p>One of the reasons why Python is popular in mathematical-related areas is because of the Matplotlib library. This library is used to draw or plot on a coordinate system. It can be used for drawing functions, dots, bars, histograms, and pie charts. It offers other useful options like drawing in different colors, naming the axes of the coordinate system, and naming the entire plot. It also supports drawing in both 2D and 3D.</p>
-<p><strong>Examples</strong>:</p>
+<h2 id="Plotting-Functions">Plotting Functions<a class="anchor-link" href="#Plotting-Functions">¶</a></h2><p>One of the reasons why Python is popular in mathematical-related areas is because of the Matplotlib library. This library is used to draw or plot on a coordinate system. It can be used for drawing functions, dots, bars, histograms, and pie charts. It offers other useful options like drawing in different colors, naming the axes of the coordinate system, and naming the entire plot. It also supports drawing in both 2D and 3D.</p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li>Draw dots in a coordinate system.</li>
-<li>Draw a function in a coordinate system over a given domain.</li>
-<li>Draw a line in a coordinate system that passes through two dots.</li>
+<li><p>Draw dots in a coordinate system.</p>
+</li>
+<li><p>Draw a function in a coordinate system over a given domain.</p>
+</li>
+<li><p>Draw a line in a coordinate system that passes through two dots.</p>
+</li>
 </ol>
 </div>
 </div>
@@ -8443,6 +8465,17 @@ First 10 positive integers:
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">'ytick.color'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'black'</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>\newpage</p>
 </div>
 </div>
 </div>
@@ -8540,7 +8573,8 @@ First 10 positive integers:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Basic-Mathematical-Functions">Basic Mathematical Functions<a class="anchor-link" href="#Basic-Mathematical-Functions">¶</a></h3><p><strong>Absolute Value</strong></p>
+<p>\newpage</p>
+<h2 id="Basic-Mathematical-Functions">Basic Mathematical Functions<a class="anchor-link" href="#Basic-Mathematical-Functions">¶</a></h2><p><strong>Absolute Value</strong></p>
 <p>The absolute value using NumPy can be calculated with <code>np.abs(&lt;np.array&gt;)</code> or <code>abs(x)</code>. The <code>np.abs</code> function is used on a NumPy array and returns an array where all elements are positive.</p>
 <p><strong>Polynomial Functions</strong></p>
 <p>A one-dimensional polynomial function is defined as:
@@ -8552,13 +8586,13 @@ $$f'(x) = \sum_{k=1}^{n} k \cdot a_k \cdot x^{k-1}$$
 and the derivative of a polynomial function <code>f</code> can be found using <code>np.polyder(f)</code> where <code>f=np.poly1d(&lt;np.array&gt;)</code>.</p>
 <p>Except for calculating derivatives of polynomial functions, NumPy does not offer a function to calculate the derivative of any function.</p>
 <p>This leaves us two popular options for calculating a derivative of a general function:</p>
-<h4 id="Custom-function">Custom function<a class="anchor-link" href="#Custom-function">¶</a></h4><p>Write a function to calculate the derivative according to the definition of a derivative. The function <code>derivative_of</code> does exactly this and can differentiate any one-dimensional Python function.</p>
+<h3 id="Custom-function">Custom function<a class="anchor-link" href="#Custom-function">¶</a></h3><p>Write a function to calculate the derivative according to the definition of a derivative. The function <code>derivative_of</code> does exactly this and can differentiate any one-dimensional Python function.</p>
 <p><strong>Advantages:</strong>
 The function <code>derivative_of</code> returns a function and as so supports higher-order derivatives. Additional advantage of this method is that no additional library.</p>
 <p><strong>Disadvantages:</strong>
 The function <code>derivative_of</code> supports only one dimensional functions.</p>
 <p><em>derivative_of can be only used with used with mathematical function, take a number as an input and return a number as an output</em></p>
-<h4 id="Sympy-library"><code>Sympy</code>-library<a class="anchor-link" href="#Sympy-library">¶</a></h4><p>The <code>sympy</code> library's <code>sympy.diff</code> function with <code>sympy.symbols</code> is the most general and flexible solution for symbolic differentiation. It allows the calculation of the derivative of a function and can be used to calculate higher-order derivatives (second, third, etc.). It can also be used to calculate partial derivatives of a multi-dimensional function.</p>
+<h3 id="Sympy-library"><code>Sympy</code>-library<a class="anchor-link" href="#Sympy-library">¶</a></h3><p>The <code>sympy</code> library's <code>sympy.diff</code> function with <code>sympy.symbols</code> is the most general and flexible solution for symbolic differentiation. It allows the calculation of the derivative of a function and can be used to calculate higher-order derivatives (second, third, etc.). It can also be used to calculate partial derivatives of a multi-dimensional function.</p>
 <p><strong>Advantages:</strong>
 It supports higher-order and partial derivatives.</p>
 <p><strong>Disadvantages:</strong>
@@ -8567,12 +8601,16 @@ It can't operate on standard Python functions but requires a special variable ty
 <p><strong>Integrals</strong></p>
 <p>NumPy also does not offer functions for calculating bounded integrals or integrals in general; they need to be calculated manually. The <code>scipy.integrate</code> library can be used for approximation. Use <code>scipy.integrate.nquad</code> for single-value functions and for functions with more than one variable, and use <code>scipy.integrate.trapz</code> for functions with more than one dimension. Note that Integrals are not required or used in this seminar work.</p>
 <p><em>In general, multi-purpose programming languages do not offer methods or libraries that can manipulate mathematical functions. They usually offer a way to approximate them, perhaps because mathematical functions are not a standard type of variable in general-purpose languages.</em></p>
-<p><strong>Examples:</strong>.</p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li>Calculate the first derivative of the polynomial function $f(x) = 2*x^2 + 3*x -5$ and evaluate it in $x = 3$.</li>
-<li>Calculate the first and second derivatives of the polynomial function $f(x) = 2*x^2 + 3*x -5$ and evaluate them in $x = 3$ using the <code>derivative_of</code> function</li>
-<li>Calculate the first and second derivatives of the function $f(x) = 2*x^2 + 3*x -5$ and evaluate them in $x = 3$ using the <code>sp.diff</code> function.</li>
-<li>Calculate the partial derivatives of $f(x) = 2 * x**2 + 3 * y**2 - 5$ with respect to <code>x</code> and <code>y</code> using the <code>sp.diff</code> function.</li>
+<li><p>Calculate the first derivative of the polynomial function $f(x) = 2*x^2 + 3*x -5$ and evaluate it in $x = 3$.</p>
+</li>
+<li><p>Calculate the first and second derivatives of the polynomial function $f(x) = 2*x^2 + 3*x -5$ and evaluate them in $x = 3$ using the <code>derivative_of</code> function.</p>
+</li>
+<li><p>Calculate the first and second derivatives of the function $f(x) = 2*x^2 + 3*x -5$ and evaluate them in $x = 3$ using the <code>sp.diff</code> function.</p>
+</li>
+<li><p>Calculate the partial derivatives of $f(x) = 2 * x**2 + 3 * y**2 - 5$ with respect to <code>x</code> and <code>y</code> using the <code>sp.diff</code> function.</p>
+</li>
 </ol>
 </div>
 </div>
@@ -8667,7 +8705,8 @@ The partial derivative of 2*x**2 + 3*y**2 - 5 with respect y is 6*y
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Arrays,-Matrices,-and-Elements-of-Linear-Algebra-in-Python">Arrays, Matrices, and Elements of Linear Algebra in Python<a class="anchor-link" href="#Arrays,-Matrices,-and-Elements-of-Linear-Algebra-in-Python">¶</a></h2><p>Python has a rich set of functions and libraries for operations with vectors and matrices. This is generally done using the libraries NumPy and SymPy. Matrices offer a powerful way to handle linear algebra operations. This text in the chapter on optimization algorithms will extensively use linear algebra and the NumPy library.</p>
+<p>\newpage</p>
+<h1 id="Arrays,-Matrices,-and-Elements-of-Linear-Algebra-in-Python">Arrays, Matrices, and Elements of Linear Algebra in Python<a class="anchor-link" href="#Arrays,-Matrices,-and-Elements-of-Linear-Algebra-in-Python">¶</a></h1><p>Python has a rich set of functions and libraries for operations with vectors and matrices. This is generally done using the libraries NumPy and SymPy. Matrices offer a powerful way to handle linear algebra operations. This text in the chapter on optimization algorithms will extensively use linear algebra and the NumPy library.</p>
 </div>
 </div>
 </div>
@@ -8678,7 +8717,7 @@ The partial derivative of 2*x**2 + 3*y**2 - 5 with respect y is 6*y
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Standard-operations-with-lists-in-Python">Standard operations with lists in Python<a class="anchor-link" href="#Standard-operations-with-lists-in-Python">¶</a></h3><p>Although not connected directly to linear algebra, standard lists in python will be used in developing the optimization algorithms in the next chapter of this text.</p>
+<h2 id="Standard-operations-with-lists-in-Python">Standard operations with lists in Python<a class="anchor-link" href="#Standard-operations-with-lists-in-Python">¶</a></h2><p>Although not connected directly to linear algebra, standard lists in python will be used in developing the optimization algorithms in the next chapter of this text.</p>
 <p>Most popular operations with the standard python list are:</p>
 <ul>
 <li><strong>Indexing</strong>: <code>list[i]</code>, where <code>i</code> is the index.</li>
@@ -8689,17 +8728,26 @@ The partial derivative of 2*x**2 + 3*y**2 - 5 with respect y is 6*y
 <li><strong>Length of a list</strong>: <code>len(list)</code> - getting the size of the list.</li>
 </ul>
 <p><em>When it comes to indexing, the first element of the list has index 0 and the last element can be accessed with -1.</em></p>
-<p><strong>Examples</strong>:</p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li>Define <code>list_a</code> with 10 elements and print its first, second, and last elements.</li>
-<li>Print the size of <code>list_a</code>.</li>
-<li>Append an element to the already defined <code>list_a</code> and print the list.</li>
-<li>Remove the second element of <code>list_a</code> and print the list.</li>
-<li>Insert an element in <code>list_a</code> between the second and third elements and print the list.</li>
-<li>From <code>list_a</code>, use the slicing operator to create a new list, <code>list_b</code>, that contains the elements from <code>list_a</code> starting from index 3 and ending at index 5, including the elements at index 3 and 5.</li>
-<li>From <code>list_a</code>, use the slicing operator to create a list, <code>list_b</code>, that does not contain the first 3 elements of <code>list_a</code>.</li>
-<li>From <code>list_a</code>, use the slicing operator to create a list, <code>list_b</code>, that does not contain the first 4 elements of <code>list_a</code>, in the same order as in <code>list_a</code>.</li>
+<li><p>Define <code>list_a</code> with 10 elements and print its first, second, and last elements.</p>
+</li>
+<li><p>Print the size of <code>list_a</code>.</p>
+</li>
+<li><p>Append an element to the already defined <code>list_a</code> and print the list.</p>
+</li>
+<li><p>Remove the second element of <code>list_a</code> and print the list.</p>
+</li>
+<li><p>Insert an element in <code>list_a</code> between the second and third elements and print the list.</p>
+</li>
+<li><p>From <code>list_a</code>, use the slicing operator to create a new list, <code>list_b</code>, that contains the elements from <code>list_a</code> starting from index 3 and ending at index 5, including the elements at index 3 and 5.</p>
+</li>
+<li><p>From <code>list_a</code>, use the slicing operator to create a list, <code>list_b</code>, that does not contain the first 3 elements of <code>list_a</code>.</p>
+</li>
+<li><p>From <code>list_a</code>, use the slicing operator to create a list, <code>list_b</code>, that does not contain the first 4 elements of <code>list_a</code>, in the same order as in <code>list_a</code>.</p>
+</li>
 </ol>
+<p>\newpage</p>
 </div>
 </div>
 </div>
@@ -8786,7 +8834,7 @@ List_b excluding the first 4 elements of list_a: [5, 6, 7, 8, 9, 10, 11]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Numpy-library,-standard-operations">Numpy library, standard operations<a class="anchor-link" href="#Numpy-library,-standard-operations">¶</a></h3><p>Creating a vector in Python can be done with the <code>numpy</code> library. Vectors created using the <code>numpy</code> library are usually referred to as <code>numpy</code> arrays or np arrays, and they are created from a list. Before using the <code>numpy</code> library, it needs to be imported. The standard way to import it is <code>import numpy as np</code>. This line imports numpy as np, and from now on in this text, numpy will be referenced and called np, as this is standard slang in Python.</p>
+<h2 id="Numpy-library,-standard-operations">Numpy library, standard operations<a class="anchor-link" href="#Numpy-library,-standard-operations">¶</a></h2><p>Creating a vector in Python can be done with the <code>numpy</code> library. Vectors created using the <code>numpy</code> library are usually referred to as <code>numpy</code> arrays or np arrays, and they are created from a list. Before using the <code>numpy</code> library, it needs to be imported. The standard way to import it is <code>import numpy as np</code>. This line imports numpy as np, and from now on in this text, numpy will be referenced and called np, as this is standard slang in Python.</p>
 <pre><code>import numpy as np
 my_list = [1,2,3,4,5]
 my_vector = np.array(my_list)
@@ -8804,14 +8852,20 @@ my_vector = np.array(my_list)
 <li><code>.shape</code>: Returns the number of rows and columns of a matrix.</li>
 </ul>
 <p><em>In the context of NumPy, a matrix <code>A</code> with <code>m</code> rows and <code>n</code>columns is said to have </em><em>shape</em>* <code>[m, n]</code>.*</p>
-<p><strong>Examples</strong></p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li>Create an array with size 10, filled with the number 5.</li>
-<li>Add additional 5 zeros to the end of the array.</li>
-<li>Generate 10 values for the function $f(x)=x^2$ on a domain between <code>[1,10]</code>.</li>
-<li>Create a matrix <code>A1</code> with shape <code>[2, 3]</code>.</li>
-<li>Create a matrix <code>A2</code> with shape <code>[2, 2]</code> and concatenate it with matrix <code>A1</code> so that the new matrix <code>A3 = [A1 A2]</code> is created with a shape <code>[2, 5]</code>.</li>
-<li>Create a new matrix <code>A4</code> with a shape <code>[3, 5]</code> and concatenate it with the matrix <code>A3</code> so that <code>A5 = [A3; A4]</code> is created with a shape <code>[5, 5]</code>.</li>
+<li><p>Create an array with size 10, filled with the number 5.</p>
+</li>
+<li><p>Add additional 5 zeros to the end of the array.</p>
+</li>
+<li><p>Generate 10 values for the function $f(x)=x^2$ on a domain between <code>[1,10]</code>.</p>
+</li>
+<li><p>Create a matrix <code>A1</code> with shape <code>[2, 3]</code>.</p>
+</li>
+<li><p>Create a matrix <code>A2</code> with shape <code>[2, 2]</code> and concatenate it with matrix <code>A1</code> so that the new matrix <code>A3 = [A1 A2]</code> is created with a shape <code>[2, 5]</code>.</p>
+</li>
+<li><p>Create a new matrix <code>A4</code> with a shape <code>[3, 5]</code> and concatenate it with the matrix <code>A3</code> so that <code>A5 = [A3; A4]</code> is created with a shape <code>[5, 5]</code>.</p>
+</li>
 </ol>
 </div>
 </div>
@@ -8845,27 +8899,27 @@ my_vector = np.array(my_list)
 <span class="c1"># Example 3</span>
 <span class="c1"># Create a matrix A1 with shape [2,3]</span>
 <span class="n">A1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span><span class="mi">1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A1 with shape [2,3]:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">A1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A1 with shape [2,3]:"</span><span class="p">,</span> <span class="n">A1</span><span class="p">)</span>
 
 <span class="c1"># Example 4</span>
 <span class="c1"># Create a matrix A2 with shape [2,2]</span>
 <span class="n">A2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A2 with shape [2,2]:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">A2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A2 with shape [2,2]:"</span><span class="p">,</span> <span class="n">A2</span><span class="p">)</span>
 
 <span class="c1"># Example 5</span>
 <span class="c1"># Concatenate A2 with A1 to create A3 with shape [2,5]</span>
 <span class="n">A3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">((</span><span class="n">A1</span><span class="p">,</span> <span class="n">A2</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A3 with shape [2,5]:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">A3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A3 with shape [2,5]:"</span><span class="p">,</span> <span class="n">A3</span><span class="p">)</span>
 
 <span class="c1"># Example 6</span>
 <span class="c1"># Create a matrix A4 with shape [3,5]</span>
 <span class="n">A4</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span><span class="mi">4</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A4 with shape [3,5]:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">A4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A4 with shape [3,5]:"</span><span class="p">,</span> <span class="n">A4</span><span class="p">)</span>
 
 <span class="c1"># Example 7</span>
 <span class="c1"># Concatenate A3 with A4 to create A5 with shape [5,5]</span>
 <span class="n">A5</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">A3</span><span class="p">,</span> <span class="n">A4</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A5 with shape [5,5]:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">A5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Matrix A5 with shape [5,5]:"</span><span class="p">,</span> <span class="n">A5</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8912,7 +8966,7 @@ Matrix A5 with shape [5,5]:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Linear-algebra-with-Numpy">Linear algebra with Numpy<a class="anchor-link" href="#Linear-algebra-with-Numpy">¶</a></h3>
+<h2 id="Linear-algebra-with-Numpy">Linear algebra with <code>Numpy</code><a class="anchor-link" href="#Linear-algebra-with-Numpy">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8923,7 +8977,7 @@ Matrix A5 with shape [5,5]:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>The following text will use vectors and matrices with elements in the set of real numbers $\mathbb{R}$.</strong></p>
+<p><strong>The following text will use vectors and matrices with elements in the set of real numbers $\mathbf{R}$.</strong></p>
 <p>Vector addition with <code>np</code> is quite intuitive as it uses the <code>+</code> operator. In mathematics, vector addition is defined between two vectors with the same dimension. If the two vectors have different dimensions, a <code>ValueError</code> exception is thrown.</p>
 <p><strong>Example</strong>: Sum two vectors <code>v1 = [1, 2, 3]</code> and <code>v2 = [3, 4, 5]</code>, then print <code>v1</code>, <code>v2</code>, and <code>v1 + v2</code>.</p>
 </div>
@@ -8971,16 +9025,17 @@ Matrix A5 with shape [5,5]:
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Matrix addition with <code>np</code> is also possible and follows the same rules as vector addition, as matrices and vectors are represented with <code>np.arrays</code>.</p>
-<p><strong>Example</strong>. Sum two matrices $ A =
-\begin{pmatrix}
-1 &amp; 2\\
-3 &amp; 4
-\end{pmatrix}$
-and $B=
-\begin{pmatrix}
-5 &amp; 6\\
-7 &amp; 8
-\end{pmatrix}$</p>
+<p><strong>Example</strong>. Sum two matrices $$ A = \begin{pmatrix} 1 &amp; 2\\ 3 &amp; 4 \end{pmatrix} $$ and $$ B= \begin{pmatrix} 5 &amp; 6\\ 7 &amp; 8 \end{pmatrix} $$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
@@ -9025,40 +9080,50 @@ and $B=
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Transposed-vectors-and-matrixes">Transposed vectors and matrixes<a class="anchor-link" href="#Transposed-vectors-and-matrixes">¶</a></h4><p>In mathematics a transposed vector $\mathbf{a^T}$ of a vector $
+<h3 id="Transposed-vectors-and-matrices">Transposed vectors and matrices<a class="anchor-link" href="#Transposed-vectors-and-matrices">¶</a></h3><p>In mathematics, a transposed vector $\mathbf{a}^T$ of a vector 
+$$
 \mathbf{a} = \begin{bmatrix}
 a_1 \\
 a_2 \\
 \vdots \\
 a_n
 \end{bmatrix}
-$ is $
+$$ 
+is 
+$$
 \mathbf{a}^T = \begin{bmatrix}
-a_1 \
-a_2 \
-\dots\
-a_n
+a_1 &amp; a_2 &amp; \dots &amp; a_n
 \end{bmatrix}
-$</p>
-<p>Similarly for matrix, transposed matrix $A^T$ of a matrix
-$\mathbf{A} = \begin{bmatrix}
+$$</p>
+<p>Similarly, for a matrix, a transposed matrix $\mathbf{A}^T$ of a matrix
+$$
+\mathbf{A} = \begin{bmatrix}
 a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n} \\
 a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n} \\
 \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
 a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}
-\end{bmatrix} $ is
-$\mathbf{A}^T = \begin{bmatrix}
+\end{bmatrix}
+$$
+is
+$$
+\mathbf{A}^T = \begin{bmatrix}
 a_{11} &amp; a_{21} &amp; \cdots &amp; a_{m1} \\
 a_{12} &amp; a_{22} &amp; \cdots &amp; a_{m2} \\
 \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
 a_{1n} &amp; a_{2n} &amp; \cdots &amp; a_{mn}
-\end{bmatrix}$</p>
+\end{bmatrix}
+$$</p>
 <p>Transposing a matrix in NumPy can be done using <code>A.T</code>, where <code>A</code> is the matrix. Since in NumPy a vector is a special case of a matrix or an array, the same method applies to vectors.</p>
 <p><em>The interpretation of transposing a matrix is creating a new matrix where the rows from the original matrix become columns and the columns become rows.</em></p>
-<p><strong>Examples</strong>:</p>
+<p>\newpage</p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li>For a given vector, print the transposed vector.</li>
-<li>For a given matrix, print the transposed matrix.</li>
+<li><p>For a given vector, print the transposed vector.</p>
+</li>
+<li><p>For a given matrix, print the transposed matrix.</p>
+</li>
+<li><p>For a given matrix, print the transposed matrix.</p>
+</li>
 </ol>
 </div>
 </div>
@@ -9127,47 +9192,52 @@ is:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Dot-Product-of-Vectors-and-Product-of-Matrices">Dot Product of Vectors and Product of Matrices<a class="anchor-link" href="#Dot-Product-of-Vectors-and-Product-of-Matrices">¶</a></h4><p>The dot product for vectors
-$\mathbf{a}^T$ and $\mathbf{b}$ in $\mathbb{R}^n$
+<p>\newpage</p>
+<h3 id="Dot-Product-of-Vectors-and-Product-of-Matrices">Dot Product of Vectors and Product of Matrices<a class="anchor-link" href="#Dot-Product-of-Vectors-and-Product-of-Matrices">¶</a></h3><p>The dot product for vectors
+$\pmb{a}^T$ and $\pmb{b}$ in $\pmb{R}^n$
 where:
-$
-\mathbf{a}^T = \begin{bmatrix}
+$$
+\pmb{a}^T = \begin{bmatrix}
 a_1 \
 a_2 \
 \dots\
 a_n
 \end{bmatrix}, \quad
-\mathbf{b} = \begin{bmatrix}
+\pmb{b} = \begin{bmatrix}
 b_1 \\
 b_2 \\
 \vdots \\
 b_n
 \end{bmatrix}
-$<br/>
+$$<br/>
 is defined as:
-$
-\mathbf{a}^T \mathbf{b} = \sum_{i=1}^{n} a_i b_i
-$</p>
-<p>The expression $\sqrt{\mathbf{x}^{T}\cdot\mathbf{x}}$ is called the Euclidean norm of the vector $\mathbf{x}$ and is denoted as $\|\mathbf{x}\|$.</p>
+$$
+\pmb{a}^T \pmb{b} = \sum_{i=1}^{n} a_i b_i
+$$</p>
+<p>The expression $\sqrt{\pmb{x}^{T}\cdot\pmb{x}}$ is called the Euclidean norm of the vector $\pmb{x}$ and is denoted as $\|\pmb{x}\|$.</p>
 <p><em>The interpretation of this norm is the size or length of the vector.</em></p>
 <p>The vector product is also equal to:</p>
-$$\mathbf{x} \cdot \mathbf{y} = \|\mathbf{x}\| \|\mathbf{y}\| \cos(\theta)$$<p>where $\theta$ is the angle between $x$ and $y$</p>
-<p>The cosine of the angle between two vectors can be calculated with:</p>
-$$\cos(\theta) = \frac{\mathbf{x} \cdot \mathbf{y}}{\|\mathbf{x}\| \|\mathbf{y}\|}$$<p><em>The dot product is usually used for finding a projection $a_b$ of the vector $a$ on the vector $b$,
+$$\pmb{x} \cdot \pmb{y} = \|\pmb{x}\| \|\pmb{y}\| \cos(\theta)$$<p>where $\theta$ is the angle between $x$ and $y$</p>
+<p>The cosine of the angle between two vectors can be calculated with:
+pmb
+$$\cos(\theta) = \frac{\pmb{x} \cdot \pmb{y}}{\|\pmb{x}\| \|\pmb{y}\|}$$</p>
+<p><em>The dot product is usually used for finding a projection $a_b$ of the vector $a$ on the vector $b$,
 $$
-{\mathbf{a_b}} = \left( \frac{\mathbf{a}^T \cdot \mathbf{b}}{\|\mathbf{b}\|^2} \right) \mathbf{b}
-$$</em></p>
-<p>Similarly, for matrices, product of two matrices $A$ and $B$ with shapes [n,k] and [k,m] accordingly is an $\mathbf{AB}$ matrix with a shape [n,m] where the element $\mathbf{AB[i,j]}$ is a dot product of the i'th row vector and the j'th column vector of $\mathbf{B}$.</p>
+{\pmb{a_b}} = \left( \frac{\pmb{a}^T \cdot \pmb{b}}{\|\pmb{b}\|^2} \right) \pmb{b}
+$$</em>.</p>
+<p>Similarly, for matrices, product of two matrices $A$ and $B$ with shapes <code>[n,k]</code> and <code>[k,m]</code> accordingly is an ${AB}$ matrix with a shape <code>[n,m]</code> where the element ${AB[i,j]}$ is a dot product of the i'th row vector and the j'th column vector of ${B}$.</p>
 $$
 AB[i,j] = \sum_{q=1}^{k} A[i,q] B[q,j]
 $$<p>In <code>Nympy</code> the dot product can be found with
 <code>np.dot(a, b)</code>
 and contrary to the mathematical definition it does not require that one of the vectors be transposed.</p>
-<p>Examples:</p>
-<ul>
-<li>Using the properties of the dot product and given two vectors <code>a=[2,3]</code> and <code>b=[4,5]</code> find a vector <code>a_b</code> that will be the projection of a on b and plot it.</li>
-<li>Given the linear function <code>f(x_1..x_4)=3x_1+5x_2-4x_3+19x_4 + 3</code> in <code>x = [3,4,5,1]</code>, using the dot product x*a where a are the parameters of the linear function <code>a = [3,5,-4,19,3]</code></li>
-</ul>
+<p><strong>Examples:</strong></p>
+<ol>
+<li><p>Using the properties of the dot product and given two vectors <code>a=[2,3]</code> and <code>b=[4,5]</code> find a vector <code>a_b</code> that will be the projection of a on b and plot it.</p>
+</li>
+<li><p>Given the linear function <code>f(x_1..x_4)=3x_1+5x_2-4x_3+19x_4 + 3</code> in <code>x = [3,4,5,1]</code>, using the dot product x*a where a are the parameters of the linear function <code>a = [3,5,-4,19,3]</code></p>
+</li>
+</ol>
 </div>
 </div>
 </div>
@@ -9244,21 +9314,23 @@ and contrary to the mathematical definition it does not require that one of the 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Cross-product">Cross product<a class="anchor-link" href="#Cross-product">¶</a></h4><p>The cross product of two vectors is exclusively defined for vectors in three dimensions. It is denoted with $\times$, and for vectors $\mathbf{a} = [a_1, a_2, a_3]$ and $\mathbf{b} = [b_1, b_2, b_3]$, it is defined as the vector $\mathbf{c}$:</p>
+<h3 id="Cross-product">Cross product<a class="anchor-link" href="#Cross-product">¶</a></h3><p>The cross product of two vectors is exclusively defined for vectors in three dimensions. It is denoted with $\times$, and for vectors $\pmb{a} = [a_1, a_2, a_3]$ and $\pmb{b} = [b_1, b_2, b_3]$, it is defined as the vector $\pmb{c}$:</p>
 $$
-\mathbf{c} = \mathbf{a} \times \mathbf{b} = \begin{bmatrix} a_1 \\ a_2 \\ a_3 \end{bmatrix} \times \begin{bmatrix} b_1 \\ b_2 \\ b_3 \end{bmatrix} = \begin{bmatrix} a_2 b_3 - a_3 b_2 \\ a_3 b_1 - a_1 b_3 \\ a_1 b_2 - a_2 b_1 \end{bmatrix}
-$$<p>Also, the norm of $\mathbf{c} = \mathbf{a} \times \mathbf{b}$ can be expressed as a product of the norms of $\mathbf{a}$ and $\mathbf{b}$ and the $\sin$ of the angle $\theta$ between them.</p>
+\pmb{c} = \pmb{a} \times \pmb{b} = \begin{bmatrix} a_1 \\ a_2 \\ a_3 \end{bmatrix} \times \begin{bmatrix} b_1 \\ b_2 \\ b_3 \end{bmatrix} = \begin{bmatrix} a_2 b_3 - a_3 b_2 \\ a_3 b_1 - a_1 b_3 \\ a_1 b_2 - a_2 b_1 \end{bmatrix}
+$$<p>Also, the norm of $\pmb{c} = \pmb{a} \times \pmb{b}$ can be expressed as a product of the norms of $\pmb{a}$ and $\pmb{b}$ and the $\sin$ of the angle $\theta$ between them.</p>
 $$
-\|\mathbf{c}\| = \|\mathbf{a} \times \mathbf{b}\| = \|\mathbf{a}\| \|\mathbf{b}\| \sin(\theta)
+\|\pmb{c}\| = \|\pmb{a} \times \pmb{b}\| = \|\pmb{a}\| \|\pmb{b}\| \sin(\theta)
 $$<p><em>Interpretation: In geometry the cross product of two vectors is an orthogonal vector to the plain that the vectors form, the size of the vector is the area of the parallelogram formed by the two vectors</em></p>
 <p>In <code>np</code> the cross product of <code>a</code> and <code>b</code> is calculated with the function <code>np.cross(a, b)</code>.</p>
-<p><strong>Examples</strong>:</p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li>Calculate the cross product of the perpendicular vectors:</li>
+<li><p>Calculate the cross product of the perpendicular vectors <code>[1, 0, 0]</code>, <code>[0, 1, 0]</code>.</p>
+</li>
+<li><p>Calculate the cross product of the non-perpendicular non-linear dependent vectors <code>[1,2,3]</code>, <code>[3,4,5]</code>.</p>
+</li>
+<li><p>Calculate the cross product of the linear dependent vectors <code>[1, 0, 0]</code>, <code>[5, 0, 0]</code>.</p>
+</li>
 </ol>
-<p><code>[1, 0, 0]</code>, <code>[0, 1, 0]</code>
-2. Calculate the cross product of the non perpendicular non linear dependent vectors <code>[1,2,3]</code>, <code>[3,4,5]</code>
-3. Calculate the cross product of the linear dependent vectors <code>[1, 0, 0]</code>, <code>[5, 0, 0]</code></p>
 </div>
 </div>
 </div>
@@ -9317,6 +9389,7 @@ Example 3: Cross product of [1 0 0] and [5 0 0] = [0 0 0]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>\newpage</p>
 <h3 id="Determinant-of-a-Matrix">Determinant of a Matrix<a class="anchor-link" href="#Determinant-of-a-Matrix">¶</a></h3><p>The determinant of a matrix is generally used to solve a system of linear equations. It is used to determine if the system has a unique solution, no solution, or infinitely many solutions. Other uses of the determinant include finding an inverse of for a given matrix. In general, for a set of vectors, if the determinant is equal to 0, it indicates that there are at least two vectors that are linearly dependent.</p>
 <p><code>np</code> uses the formula <code>np.linalg.det(A)</code> to calculate the determinant of A.</p>
 <p><strong>Example</strong>:</p>
@@ -9405,7 +9478,7 @@ $$</p>
 <pre><code>size = 5
 I = np.identity(size)
 </code></pre>
-<p>And a inverse matrix $A^{-1}$ of $A$ is a matrix that multiplied with $A$ is equal to the inverse matrix $I$.</p>
+<p>And an inverse matrix $A^{-1}$ of $A$ is a matrix that multiplied with $A$ is equal to the inverse matrix $I$.</p>
 $$ A \cdot A^{-1} =  A^{-1} \cdot A = I $$<p>Finding an inverse matrix for matrix A in np is done with the function <code>inv_A = np.linalg.inv(A)</code>, in case the determinant of $A$ is $0$, $A$ does not have a inverse matrix and then $A$ is called a singular matrix. Calling <code>inv_A = np.linalg.inv(A)</code> on a singular matrix will result in throwing <code>np.linalg.LinAlgError</code> exception. This behavior results in two possible options, first, before calling <code>inv_A = np.linalg.inv(A)</code> check if the determinant is 0 or second, handle the exception <code>np.linalg.LinAlgError</code>.</p>
 <p>Case one:</p>
 <pre><code>det_A = np.linalg.det(A)
@@ -9425,13 +9498,17 @@ else:
 except np.linalg.LinAlgError:
    print("Matrix A is singular")
 </code></pre>
-<p><strong>Examples</strong>:</p>
+<p>\newpage
+<strong>Examples:</strong></p>
 <ol>
-<li>Create identity matrix <code>I</code> with size 5</li>
-<li>Create random not zero matrix <code>A</code> with shape <code>[5,5]</code> and find the inverse, <code>A_inv</code> of <code>A</code>.</li>
-<li>Verify that <code>A*A_inv</code> is equal to the identity</li>
+<li><p>Create identity matrix <code>I</code> with size 5.</p>
+</li>
+<li><p>Create random not zero matrix <code>A</code> with shape <code>[5,5]</code> and find the inverse, <code>A_inv</code> of <code>A</code>.</p>
+</li>
+<li><p>Verify that <code>A*A_inv</code> is equal to the identity</p>
+</li>
 </ol>
-<p><strong>Use <code>np.round(A, 3)</code> to round the elements of the matrices to 3 decimals</strong></p>
+<p><strong>Use <code>np.round(A, 3)</code> to round the elements of the matrices to 3 decimals</strong>.</p>
 </div>
 </div>
 </div>
@@ -9465,7 +9542,7 @@ except np.linalg.LinAlgError:
 <span class="n">A_inv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">A</span><span class="p">),</span><span class="mi">3</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Random non-zero matrix A:"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Inverse of matrix A (A_inv):"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Inverse of matrix A (A_inv):"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">A_inv</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">()</span>
 
@@ -9526,9 +9603,10 @@ Product of A and A_inv (should be close to identity matrix):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Eigenvalue-and-Eigenvectors-of-a-matrix">Eigenvalue and Eigenvectors of a matrix<a class="anchor-link" href="#Eigenvalue-and-Eigenvectors-of-a-matrix">¶</a></h3><p>Given a matrix $M$, vector $\vec{\mathbf{v}} \ne \mathbf{0}$ and scalar $\lambda$ that satisfy the equation $M \vec{\mathbf{v}} = \lambda \vec{\mathbf{v}}$. Then $\lambda$  is called eigenvalue  of the matrix $M$ and and $\vec{\mathbf{v}}$ is called eigenvector of the matrix $M$ corespondimg to the eigenvalue $\lambda$.</p>
+<p>\newpage</p>
+<h3 id="Eigenvalue-and-Eigenvectors-of-a-matrix">Eigenvalue and Eigenvectors of a matrix<a class="anchor-link" href="#Eigenvalue-and-Eigenvectors-of-a-matrix">¶</a></h3><p>Given a matrix $M$, vector $\pmb{{v}} \ne \mathbf{0}$ and scalar $\lambda$ that satisfy the equation $M \pmb{{v}} = \lambda \pmb{{v}}$. Then $\lambda$  is called eigenvalue  of the matrix $M$ and and $\pmb{{v}}$ is called eigenvector of the matrix $M$ corresponding to the eigenvalue $\lambda$.</p>
 <p><em>Interpretation:
-Actually, $\lambda$ and $\vec{\mathbf{v}}$ are such that the scalar multiple $\lambda \vec{\mathbf{v}}$ and the matrix multiple $M\vec{\mathbf{v}}$ are one and same vector. In other words, the linear transformation $f(\vec{\mathbf{v}})=M\vec{\mathbf{v}}$ maps the vector $ \vec{\mathbf{v}}$ in its collinear vector $\lambda \vec{\mathbf{v}}$. It means that the direction defined by $\vec{\mathbf{v}}$ is invariant under the linear mapping $f$.</em></p>
+Actually, $\lambda$ and $\pmb{{v}}$ are such that the scalar multiple $\lambda \pmb{{v}}$ and the matrix multiple $M\pmb{{v}}$ are one and same vector. In other words, the linear transformation $f(\pmb{{v}})=M\pmb{{v}}$ maps the vector $ \pmb{{v}}$ in its collinear vector $\lambda \pmb{{v}}$. It means that the direction defined by $\pmb{{v}}$ is invariant under the linear mapping $f$.</em></p>
 <p><code>Numpy</code> offers an elegant option to calculate the Eigenvalue and the associated Eigenvectors to the value.</p>
 <p><strong>Example</strong>: Given a matrix <code>[[1 2 3][4 5 6][7 8 9]]</code>, find the Eigenvalues and the corresponding Eigenvectors</p>
 </div>
@@ -9585,15 +9663,18 @@ The eigenvalue -1.3036777264747022e-15 has the appropriate eigenvectors [[-0.231
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>\newpage</p>
 <h3 id="Solving-equations">Solving equations<a class="anchor-link" href="#Solving-equations">¶</a></h3><p>A system of linear equations can be represented with matrices in the following form $A*X=B$.</p>
 <p>In mathematics there are multiple ways of solving a system.
 Python uses <code>numpy.linalg.solve(A,B)</code></p>
-<p><strong>Examples</strong>:</p>
+<p><strong>Examples:</strong></p>
 <ol>
 <li>Solve the system A*X = B where <code>A =[[2, 3, 1],[4, 1, 2],[3, 2, 3]]</code></li>
 </ol>
-<p>and <code>B = [1, 2, 3]</code> and verify the result
-2. Solve the system A*X = B where <code>A = [[1,3,-2],[3,-2,-1]]</code> and <code>B=[1,-4]</code></p>
+<p>and <code>B = [1, 2, 3]</code> and verify the result.</p>
+<ol start="2">
+<li>Solve the system A*X = B where <code>A = [[1,3,-2],[3,-2,-1]]</code> and <code>B=[1,-4]</code>.</li>
+</ol>
 </div>
 </div>
 </div>
@@ -9687,7 +9768,8 @@ File <span class="ansi-green-fg">/opt/anaconda3/lib/python3.12/site-packages/num
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Excesisis-with-np">Excesisis with np<a class="anchor-link" href="#Excesisis-with-np">¶</a></h3>
+<p>\newpage</p>
+<h3 id="Exercises-with-np">Exercises with <code>np</code><a class="anchor-link" href="#Exercises-with-np">¶</a></h3>
 </div>
 </div>
 </div>
@@ -9844,6 +9926,17 @@ Inverse of:
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>\newpage</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -9916,7 +10009,8 @@ Matrix([[1, -1, 2], [0, 7, -1], [0, 2, 8]])
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Approximations-algorithms-and-the-scipy.optimize-library">Approximations algorithms and the <code>scipy.optimize</code> library<a class="anchor-link" href="#Approximations-algorithms-and-the-scipy.optimize-library">¶</a></h2>
+<p>\newpage</p>
+<h1 id="Optimization,-approximation-algorithms-and-the-scipy.optimize-library">Optimization, approximation algorithms and the <code>scipy.optimize</code> library<a class="anchor-link" href="#Optimization,-approximation-algorithms-and-the-scipy.optimize-library">¶</a></h1>
 </div>
 </div>
 </div>
@@ -9963,7 +10057,8 @@ In the following text, I will implement different approximation methods and also
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Golder-Search">Golder Search<a class="anchor-link" href="#Golder-Search">¶</a></h3><p>Golden search method is applicable for a function $F: \mathbb{R} \to \mathbb{R}$ on a closed interval $[a_0, b_0]$ when $F(x)$ has only one minimum under the closed interval. The algorithm works in a way that for every step requires a list of four values for $x$:</p>
+<p>\newpage</p>
+<h2 id="Golden-Search">Golden Search<a class="anchor-link" href="#Golden-Search">¶</a></h2><p>Golden search method is applicable for a function $F: \mathbb{R} \to \mathbb{R}$ on a closed interval $[a_0, b_0]$ when $F(x)$ has only one minimum under the closed interval. The algorithm works in a way that for every step requires a list of four values for $x$:</p>
 <p>$[a_0, a_1, b_1, b_0]$ so that $a_0 &lt; a_1 &lt; b_1 &lt; b_0$ and $a_1 - a_0 = b_0 - b_1 = p \cdot (b_0 - a_0)$ and $p &lt; \frac{1}{2}$.</p>
 <p>Then it analyzes the function $F(x)$ at these four values. Depending on whether $F(a_1) &gt; F(b_1)$ or $F(a_1) &lt; F(b_1)$, the minimum will be located in $[a_0, b_1]$ or in $[a_1, b_0]$. For the two intervals $[a_0, b_1]$ and $[a_1, b_0]$, three values of $F(x)$ are already known or previously calculated: $F(a_0), F(a_1), F(b_1)$ for $[a_0, b_1]$ and $F(a_1), F(b_1), F(b_0)$ for $[a_1, b_0]$. In order to again analyze $F$ for a minimum under the new reduced interval, a new value for $x$ needs to be picked. $x$ is picked using the following optimization:</p>
 <p>$x = a_0 + |a_0 - b_1| \cdot p$ for $[a_0, a_1, b_1]$ resulting in a new input list of four values for $x$: $[a_0, x, a_1, b_1]$ where $x - a_0 = b_1 - a_1$.</p>
@@ -9977,7 +10072,7 @@ $$p = \frac{3 - \sqrt{5}}{2} \approx 0.382 $$<p>The described process is repeate
 <ol>
 <li>Use the the golden search to find the value of x that minimizes the function:</li>
 </ol>
-<p>$f(x) = x^4 - 14x^3 + 60x^2 + 70x$
+<p>$f(x) = x^4 - 14x^3 + 60x^2 + 70x$ <em>([8], Example 7.1, "Introduction to Optimization", page 94)</em>
 2. Use the the golden search <code>minimize_scalar(f, method='golden')</code> from the library <code>scipy</code>, package <code>scipy.optimize</code> to find the local minimum of the function</p>
 <p>$f(x) = x^4 - 14x^3 + 60x^2 + 70x$</p>
 </div>
@@ -10058,11 +10153,11 @@ $$p = \frac{3 - \sqrt{5}}{2} \approx 0.382 $$<p>The described process is repeate
 <span class="n">a0_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">x_approximations</span><span class="p">]</span>
 <span class="n">b0_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">x_approximations</span><span class="p">]</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">F</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="n">c</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="n">c</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">x_approximations</span><span class="p">:</span>
   <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">x_approximations</span><span class="p">)</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span>
   <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">f_x</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">x_approximations</span><span class="p">)</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span>
-  <span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+  <span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 
 <span class="c1">#Example 2</span>
@@ -10101,7 +10196,7 @@ The minimizer using the minimize_scalar algorithm is equal to X= -0.493928675101
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Newton's-Method">Newton's Method<a class="anchor-link" href="#Newton's-Method">¶</a></h3><p>The Newton method for minimizing a function $f(x)$ requires that the first derivative $f'(x)$ and the second derivative $f''(x)$ are known and also $f(x)$, $f'(x)$, $f''(x)$ can be calculated.</p>
+<h2 id="Newton's-Method">Newton's Method<a class="anchor-link" href="#Newton's-Method">¶</a></h2><p>The Newton method for minimizing a function $f(x)$ requires that the first derivative $f'(x)$ and the second derivative $f''(x)$ are known and also $f(x)$, $f'(x)$, $f''(x)$ can be calculated.</p>
 <p>It is given by the iterative formula:
 $$
 x_{k+1} = x_k - \frac{f'(x_k)}{f''(x_k)}
@@ -10120,8 +10215,8 @@ $$</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Example</strong>:</p>
 <ol>
-<li>Manually find the minimizer of $f(x) = \frac{1}{2}x^2 - \sin(x)$ given the derivatives $f'(x) = x - \cos(x)$ and $f''(x) = 1 + \sin(x)$</li>
-<li>Use the <code>scipy.optimize.newton</code> to find the minimizer of $f(x) = \frac{1}{2}x^2 - \sin(x)$ given the derivatives $f'(x) = x - \cos(x)$ and $f''(x) = 1 + \sin(x)</li>
+<li>Manually find the minimizer of $f(x) = \frac{1}{2}x^2 - sin(x)$ given the derivatives $f'(x) = x - cos(x)$ and $f''(x) = 1 + sin(x)$, <em>([8], Example 7.3, "Introduction to Optimization", page 103)</em></li>
+<li>Use the <code>scipy.optimize.newton</code> to find the minimizer of $f(x) = \frac{1}{2}x^2 - sin(x)$ given the derivatives $f'(x) = x - cos(x)$ and $f''(x) = 1 + sin(x)$, <em>([8], Example 7.3, "Introduction to Optimization", page 103)</em></li>
 </ol>
 </div>
 </div>
@@ -10135,7 +10230,7 @@ $$</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>In the following code, several improvements will be implemented:</p>
 <ol>
-<li><p>All of the optimization methods are iterative, they call a specific step function until a certain stop_criterion is reached. This behavior will be generalized in the <code>general_approximation_iterator</code> Python function.</p>
+<li><p>All the optimization methods are iterative, they call a specific step function until a certain stop_criterion is reached. This behavior will be generalized in the <code>general_approximation_iterator</code> Python function.</p>
 </li>
 <li><p>The approximation method-specific step function will be generated from a different specific approximation method builder function and will be only dependent on the approximations list.</p>
 </li>
@@ -10246,9 +10341,10 @@ This is the iterative formula for finding a root of a function $g(x)$:
 $$
 x_{k+1} = x_k - \frac{g(x_k)}{g'(x_k)}
 $$</p>
+<p>\newpage</p>
 <p><strong>Example</strong>:</p>
 <ol>
-<li><p>Manually find the root of the function $g(x) = x^3 - 12.2x^2 + 7.45x + 42 = 0$ given its derivative, $g'(x) = 3x^2 - 24.4x + 7.45$ using the newton's method.</p>
+<li><p>Manually find the root of the function $g(x) = x^3 - 12.2x^2 + 7.45x + 42 = 0$ given its derivative, $g'(x) = 3x^2 - 24.4x + 7.45$ using the newton's method. <em>([8], Example 7.4, "Introduction to Optimization", page 105)</em></p>
 </li>
 <li><p>Use the scipy.optimize.newton to find the root of the function $</p>
 </li>
@@ -10329,35 +10425,6 @@ $ given its derivative, $g'(x) = 3x^2 - 24.4x + 7.45$ using the newton's method.
 <pre>Root calculated with scipy.optimize.newton, X=11.199999999999998
 </pre>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Secant-Method">Secant Method<a class="anchor-link" href="#Secant-Method">¶</a></h3><p>The secant method for minimizing the approximation of $f(x)$ is based on the same approach as the newton method for approximation, with the difference that the second derivative $f``(x)$ is approximated instead of calculated. Same as the Newton method, the second method can be used for approximating the extreme or the root of the function.
-The algorithm requires two initial values $x_0$ and $x_1$.</p>
-<ul>
-<li>When approximating local extrema for $f(x)$, the algorithm needs as an input only the differential $f'(x)$.</li>
-</ul>
-$$
-x_{k+1} = x_k - f'(x_k) \frac{x_k - x_{k-1}}{f'(x_k) - f'(x_{k-1})}
-$$<ul>
-<li>When approximating a root of a function $g(x)$ a differential of a $g'(x)$ is not needed.</li>
-</ul>
-$$
-x_{k+1} = x_k - g(x_k) \frac{x_k - x_{k-1}}{g(x_k) - g(x_{k-1})}
-$$<p><strong>Examples</strong>:</p>
-<ol>
-<li><p>Develop the secant method algorithm and find the root of the $g(x)=x**3-12.2*x**2+42=0$, <em>(Example 7,5 page 107, "An Introduction to Optimization")</em>.</p>
-</li>
-<li><p>Using the <code>scipy.optimize.newton</code> library, Find the root of the $g(x)=x**3-12.2*x**2+42=0$, , <em>(Example 7,5 page 107, "An Introduction to Optimization")</em>.</p>
-</li>
-</ol>
 </div>
 </div>
 </div>
@@ -10466,11 +10533,12 @@ Root found by scipy.optimize.newton Secant method: 11.200000000000033
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Gradient-method">Gradient method<a class="anchor-link" href="#Gradient-method">¶</a></h3><p>The Gradient method is used to approximate an extremum of a function $f$. Similar to the Newton method, it requires the knowledge of the derivative of $f$ in the approximation steps $\pmb{x^{(0)}}, \pmb{x^{(1)}}...$ .</p>
+<p>\newpage</p>
+<h2 id="Gradient-method">Gradient method<a class="anchor-link" href="#Gradient-method">¶</a></h2><p>The Gradient method is used to approximate an extremum of a function $f$. Similar to the Newton method, it requires the knowledge of the derivative of $f$ in the approximation steps $\pmb{x^{(0)}}, \pmb{x^{(1)}}...$ .</p>
 <ul>
-<li><p>Given $f(\textbf{x}) = c, \textbf{x} \in \mathbb{R}^n$, and  $ c \in \mathbb{R}$.</p>
+<li><p>Given $f(\pmb{x}) = c, \pmb{x} \in \pmb{R}^n$, and  $ c \in \pmb{R}$.</p>
 </li>
-<li><p>The gradient of $ f $ at $ \pmb{x_0} $ is a vector in $ \mathbb{R}^n $, denoted by $ \nabla f(\pmb{x_0}) $.</p>
+<li><p>The gradient of $f$ at $\pmb{x_0}$ is a vector in $\textbf{R}^n$, denoted by $\nabla f(\pmb{x_0})$.</p>
 </li>
 <li><p>$\nabla f(\pmb{x_0})$ points in the direction of the maximum rate of increase of $f(\pmb{x})$.</p>
 </li>
@@ -10484,9 +10552,9 @@ $$<p>For a starting the value $x\pmb{^{(k_0)}}$, the value $\pmb{x^{(k+1)}}$ wil
 $$
 \pmb{x^{(k+1)}} = \pmb{x^{(k)}} + \alpha_k \nabla f(\pmb{x^{(k)}})
 $$<p>The scalar $\alpha_k$ is the $\textit{step size}$ and is always bigger than 0. Different variations of the algorithm exist, that use different strategies to re-calculated $\alpha$ on every iteration. Correctly choosing $\alpha$ is quite important, picking a random $\alpha$ might not result in convergence.</p>
-<p>Unlike the previous example, where approximation was done on a one-dimensional function, the following gradient method algorithm approximates an n-dimensional function. As a result, the steps $\pmb{x^{(0)}}, \pmb{x^{(1)}}, \ldots$ are n-dimensional dots/vectors. Consequently, the algorithm stops when the distance between $\pmb{x^{(k)}}$ and $\pmb{x^{(k+1)}}$ is smaller than a given accuracy, or when the norm of the vector $\| \pmb{x^{(k)}} - \pmb{x^{(k+1)}} \| $ is smaller than a required accuracy.</p>
+<p>Unlike the previous example, where approximation was done on a one-dimensional function, the following gradient method algorithm approximates an n-dimensional function. As a result, the steps $\pmb{x^{(0)}}, \pmb{x^{(1)}}, \ldots$ are n-dimensional dots/vectors. Consequently, the algorithm stops when the distance between $\pmb{x^{(k)}}$ and $\pmb{x^{(k+1)}}$ is smaller than a given accuracy, or when the norm of the vector $\| \pmb{x^{(k)}} - \pmb{x^{(k+1)}} \|$ is smaller than a required accuracy.</p>
 <p><strong>Example</strong>.
-Find the minimizer of $f(x_1, x_2, x_3) = (x_1 - 4)^4 + (x_2 - x_3)^2 + 4(x_3 + 5)^4$, <em>(Page 118, Example 8.1, "An Introduction to Optimization")</em>.</p>
+Find the minimizer of $f(x_1, x_2, x_3) = (x_1 - 4)^4 + (x_2 - x_3)^2 + 4(x_3 + 5)^4$, <em>([8], Page 118, Example 8.1, "An Introduction to Optimization")</em>.</p>
 </div>
 </div>
 </div>
@@ -10611,15 +10679,15 @@ The algorithm achieved accuracy of 1e-06 in 38331 steps
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Gradient-with-step-adjustment,-Steepest-descent">Gradient with step adjustment, Steepest descent<a class="anchor-link" href="#Gradient-with-step-adjustment,-Steepest-descent">¶</a></h3><p>In-order to optimize $\alpha_k$ when minimizing $f$, it is requeued to finding a positive $\alpha_k$ so for the next $\pmb{x^{(k+1)}}$, $\pmb{x^{(k+1)}} = \pmb{x^{(k)}} - \alpha_k \nabla f(\pmb{x^{(k)}})$ the function $f(\pmb{x^{(k+1)}})$ will have the smallest possible value.</p>
+<h2 id="Gradient-with-step-adjustment,-Steepest-descent">Gradient with step adjustment, Steepest descent<a class="anchor-link" href="#Gradient-with-step-adjustment,-Steepest-descent">¶</a></h2><p>In-order to optimize $\alpha_k$ when minimizing $f$, it is requeued to finding a positive $\alpha_k$ so for the next $\pmb{x^{(k+1)}}$, $\pmb{x^{(k+1)}} = \pmb{x^{(k)}} - \alpha_k \nabla f(\pmb{x^{(k)}})$ the function $f(\pmb{x^{(k+1)}})$ will have the smallest possible value.</p>
 <p>Since the vectors/dots, $\pmb{x^{(k)}}$ and $\nabla f(\pmb{x^{(k)}})$ are already know, optimizing $\alpha_k$ would be finding a minimum of the one dimensional function:
 $$argmin(\alpha_k) = f(\pmb{x^{(k)}} - \alpha_k \nabla f(\pmb{x^{(k)}}))$$</p>
 <p>The minimizer of $argmin(\alpha_k)$ can be found using some of the previous approximation methods that are applicable on one dimensional functions.</p>
-<p><strong>Examples</strong>:</p>
+<p><strong>Examples:</strong></p>
 <ol>
-<li><p>Develop an algorithm for the Steepest descent method and find the minimizer of $f(x_1, x_2, x_3) = (x_1 - 4)^4 + (x_2 - x_3)^2 + 4(x_3 + 5)^4$ where the step $\alpha_k$ is adjusted using the secant_method method, <em>(Page 118, Example 8.1 of "An Introduction to Optimization")</em>.</p>
+<li><p>Develop an algorithm for the Steepest descent method and find the minimizer of $f(x_1, x_2, x_3) = (x_1 - 4)^4 + (x_2 - x_3)^2 + 4(x_3 + 5)^4$ where the step $\alpha_k$ is adjusted using the secant_method method, <em>([8], Page 118, Example 8.1 of "An Introduction to Optimization")</em>.</p>
 </li>
-<li><p>Find the minimizer of $f(x_1, x_2, x_3) = (x_1 - 4)^4 + (x_2 - x_3)^2 + 4(x_3 + 5)^4$ using the python's <code>minimize</code> from the <code>scipy.optimize import minimize</code>,  <em>(Page 118, Example 8.1 of "An Introduction to Optimization")</em>.</p>
+<li><p>Find the minimizer of $f(x_1, x_2, x_3) = (x_1 - 4)^4 + (x_2 - x_3)^2 + 4(x_3 + 5)^4$ using the python's <code>minimize</code> from the <code>scipy.optimize import minimize</code>,  <em>([8], Page 118, Example 8.1 of "An Introduction to Optimization")</em>.</p>
 </li>
 </ol>
 </div>
@@ -10760,7 +10828,8 @@ The minimum of f using scipy.optimize.minimize is in  [ 4.          3.00000003 -
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Linear-programing">Linear programing<a class="anchor-link" href="#Linear-programing">¶</a></h2>
+<p>\newpage</p>
+<h2 id="Linear-programming">Linear programming<a class="anchor-link" href="#Linear-programming">¶</a></h2>
 </div>
 </div>
 </div>
@@ -10771,7 +10840,7 @@ The minimum of f using scipy.optimize.minimize is in  [ 4.          3.00000003 -
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This type of optimization tries to find an extremum of a linear function $F(\pmb{x})$, <strong>called the objective function</strong>, given a set of constraints that are linear equations or inequalities. Based on the type of constraints and the extremum of the function, a linear program can be written in different forms.</p>
+<p>This type of optimization tries to find an extreme of a linear function $F(\pmb{x})$, <strong>called the objective function</strong>, given a set of constraints that are linear equations or inequalities. Based on the type of constraints and the extreme of the function, a linear program can be written in different forms.</p>
 <p>The following proposition is called a linear program in <strong>standard form</strong>:</p>
 <p>Minimize:</p>
 $$
@@ -10849,7 +10918,7 @@ $$<ul>
 <li>all values of $\pmb{x}$ and $S$ are greater than or equal to $0$ and $I$ is an identity matrix.</li>
 </ul>
 <h3 id="Simplex-algorithm">Simplex algorithm<a class="anchor-link" href="#Simplex-algorithm">¶</a></h3><p>The simplex method is a method that solves a liner program in standard form.</p>
-<p><strong>Example</strong>. Develop an linear program algorithm and solve the following program:</p>
+<p><strong>Example</strong>. Develop a linear program algorithm and solve the following program:</p>
 <div class="highlight"><pre><span></span>Minimize:
           F(x_1,x_2) = 7<span class="ge">*x_1 + 6*</span>x_2
   Subject to:
@@ -10857,7 +10926,7 @@ $$<ul>
          x<span class="ge">_1 + 4*x_</span>2 &lt;= 4
             x<span class="ge">_1, x_</span>2 &gt;= 0
 </pre></div>
-<p><em>(Example 16.3 (An introduction to optimization) Page 306)</em></p>
+<p><em>([8], Example 16.3 (An introduction to optimization) Page 306)</em></p>
 </div>
 </div>
 </div>
@@ -11028,7 +11097,8 @@ The minimum is
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Two-phase-simplex">Two phase simplex<a class="anchor-link" href="#Two-phase-simplex">¶</a></h3><p>The two phase simplex algorithm is a generalization of the simplex algorithm, it is required since the the basic feasible solution is not always obvious, this method standardizes the simplex algorithm.
+<p>\newpage</p>
+<h2 id="Two-phase-simplex">Two phase simplex<a class="anchor-link" href="#Two-phase-simplex">¶</a></h2><p>The two phase simplex algorithm is a generalization of the simplex algorithm, it is required since the the basic feasible solution is not always obvious, this method standardizes the simplex algorithm.
   Example when to use the Two phase simplex:</p>
 <ul>
 <li>Usually the basic feasible solution is for every $x_0,x_1,...x_n = \pmb{x} , x_i = 0$. If this $\pmb{x}$ does not solve the function than it can be said that the basic feasible solution is not obvious. In this case the the two phase simplex method can be used.</li>
@@ -11057,7 +11127,7 @@ Before applying the simplex method or the phase two of the "Two phase simplex me
 
 
 
-The algoritam starts as a tableau of the given LP problem:
+The algorithm starts as a tableau of the given LP problem:
 [
  [B,     D,      b],
  [cTb,   cTd,    0]  
@@ -11069,7 +11139,7 @@ The algoritam starts as a tableau of the given LP problem:
                      4x_1 + 2x_2 &gt;= 12
                       x_1 + 4x_2 &gt;= 6
                            x1,x2 &gt;= 0
-<em>(Example 16.4, "Introduction to Optimization", page 308)</em></p>
+<em>([8], Example 16.4, "Introduction to Optimization", page 308)</em></p>
 </div>
 </div>
 </div>
@@ -11081,7 +11151,7 @@ The algoritam starts as a tableau of the given LP problem:
 <div class="jp-InputPrompt jp-InputArea-prompt">In [133]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#  Example 16.4, Introduction to Optimization, page 308</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#  Example 16.4,  *[8]*,  Introduction to Optimization, page 308</span>
 <span class="c1">#          minimize :</span>
 <span class="c1">#                     2x_1 + 3x_2</span>
 <span class="c1">#        subject to :</span>
@@ -11252,9 +11322,10 @@ and the optimal cost is 54/7
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Solving-linear-program-with-scipy.optimize.linprog">Solving linear program with <code>scipy.optimize.linprog</code><a class="anchor-link" href="#Solving-linear-program-with-scipy.optimize.linprog">¶</a></h3><p>Python offers a convenient way for solving linear programming programs. The <code>scipy</code> library contains a module <code>scipy.optimize.linprog</code> that is designed for solving this type of problems.</p>
+<p>\newpage</p>
+<h2 id="Solving-linear-program-with-scipy.optimize.linprog">Solving linear program with <code>scipy.optimize.linprog</code><a class="anchor-link" href="#Solving-linear-program-with-scipy.optimize.linprog">¶</a></h2><p>Python offers a convenient way for solving linear programming programs. The <code>scipy</code> library contains a module <code>scipy.optimize.linprog</code> that is designed for solving this type of problems.</p>
 <p>Let's demonstrate how to solve the previous linear program using the <code>linprog</code> library</p>
-<pre><code>#  Example 16.4, Introduction to Optimization, page 308
+<pre><code>#  Example 16.4, Introduction to Optimization, page 308 [8]
 #          Minimize :
 #                     2x_1 + 3x_2
 #        Subject to :
@@ -11278,6 +11349,7 @@ and the optimal cost is 54/7
 <ol start="4">
 <li>Constructing the vector B, this is the last column of the linear program. In the current linear program it is the vector B=[12,6]. It has the same number of elements or rows as the matrix A. Also it follows the same rules as a concerning the inequality or equality operator.</li>
 </ol>
+<p>\newpage</p>
 </div>
 </div>
 </div>
@@ -11292,7 +11364,7 @@ and the optimal cost is 54/7
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">linprog</span>
 
-<span class="c1">#  Example 16.4, Introduction to Optimization, page 308</span>
+<span class="c1">#  Example 16.4, Introduction to Optimization, page 308 [8]</span>
 <span class="c1">#          minimize :</span>
 <span class="c1">#                     2x_1 + 3x_2</span>
 <span class="c1">#        subject to :</span>
@@ -11352,25 +11424,43 @@ Optimal x values: [2.57142857 0.85714286]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="References">References<a class="anchor-link" href="#References">¶</a></h2><h3 id="Python-tutorial">Python tutorial<a class="anchor-link" href="#Python-tutorial">¶</a></h3><ul>
-<li>Plot functions <a href="https://www.w3schools.com/python/matplotlib_pie_charts.asp">https://www.w3schools.com/python/matplotlib_pie_charts.asp</a></li>
-<li>Animations <a href="https://matplotlib.org/stable/gallery/animation/index.html">https://matplotlib.org/stable/gallery/animation/index.html</a></li>
-<li>Language references, <a href="https://www.w3schools.com/python/">https://www.w3schools.com/python/</a></li>
-<li>Using <code>sympy</code> with symbols, <a href="https://www.turing.com/kb/derivative-functions-in-python">https://www.turing.com/kb/derivative-functions-in-python</a></li>
-</ul>
-<h3 id="Linear-Algebra">Linear Algebra<a class="anchor-link" href="#Linear-Algebra">¶</a></h3><ul>
-<li>Dot-product, <a href="https://en.wikipedia.org/wiki/Dot_product#Definition">https://en.wikipedia.org/wiki/Dot_product#Definition</a></li>
-<li>Cross product, <a href="https://en.wikipedia.org/wiki/Cross_product">https://en.wikipedia.org/wiki/Cross_product</a></li>
-<li>Eigenvector and Eigenvalues, <a href="https://www.cs.ox.ac.uk/files/12921/book.pdf">https://www.cs.ox.ac.uk/files/12921/book.pdf</a></li>
-</ul>
-<h3 id="Simplex">Simplex<a class="anchor-link" href="#Simplex">¶</a></h3><ul>
-<li><a href="https://www.ms.uky.edu/~jack/2010-01-MA162/2010-02-25-MA162Lab.pdf">https://www.ms.uky.edu/~jack/2010-01-MA162/2010-02-25-MA162Lab.pdf</a></li>
-<li><a href="https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf">https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf</a></li>
-<li><a href="https://web.mit.edu/15.053/www/AMP-Chapter-02.pdf">https://web.mit.edu/15.053/www/AMP-Chapter-02.pdf</a></li>
-<li><a href="https://realpython.com/linear-programming-python/">https://realpython.com/linear-programming-python/</a></li>
-<li><a href="https://www.uky.edu/~dsianita/300/online/LP.pdf">https://www.uky.edu/~dsianita/300/online/LP.pdf</a></li>
-<li><a href="https://www.youtube.com/watch?v=E72DWgKP_1Y&amp;t=652s">https://www.youtube.com/watch?v=E72DWgKP_1Y&amp;t=652s</a></li>
-</ul>
+<h1 id="Bibliography">Bibliography<a class="anchor-link" href="#Bibliography">¶</a></h1><h2 id="Python-Tutorial">Python Tutorial<a class="anchor-link" href="#Python-Tutorial">¶</a></h2><ol>
+<li><p>W3Schools. "Plot Functions." <a href="https://www.w3schools.com/python/matplotlib_pie_charts.asp">https://www.w3schools.com/python/matplotlib_pie_charts.asp</a>.</p>
+</li>
+<li><p>Matplotlib. "Animations." <a href="https://matplotlib.org/stable/gallery/animation/index.html">https://matplotlib.org/stable/gallery/animation/index.html</a>.</p>
+</li>
+<li><p>W3Schools. "Language References." <a href="https://www.w3schools.com/python/">https://www.w3schools.com/python/</a>.</p>
+</li>
+<li><p>Turing. "Using <code>sympy</code> with Symbols." <a href="https://www.turing.com/kb/derivative-functions-in-python">https://www.turing.com/kb/derivative-functions-in-python</a>.</p>
+</li>
+</ol>
+<h3 id="Linear-Algebra">Linear Algebra<a class="anchor-link" href="#Linear-Algebra">¶</a></h3><ol start="5">
+<li><p>Wikipedia. "Dot-product." <a href="https://en.wikipedia.org/wiki/Dot_product#Definition">https://en.wikipedia.org/wiki/Dot_product#Definition</a>.</p>
+</li>
+<li><p>Wikipedia. "Cross Product." <a href="https://en.wikipedia.org/wiki/Cross_product">https://en.wikipedia.org/wiki/Cross_product</a>.</p>
+</li>
+<li><p>Hefferon, Jim. <em>LINEAR ALGEBRA, Fourth Edition.</em> <a href="https://www.cs.ox.ac.uk/files/12921/book.pdf">https://www.cs.ox.ac.uk/files/12921/book.pdf</a>.</p>
+</li>
+</ol>
+<h2 id="Optimization-Methods">Optimization Methods<a class="anchor-link" href="#Optimization-Methods">¶</a></h2><ol start="8">
+<li>Chong, Edwin K. P., and Stanislaw H. Źak. <em>An Introduction to Optimization, Second Edition.</em> Wiley-Interscience, 2001.</li>
+</ol>
+<h2 id="Simplex-Method">Simplex Method<a class="anchor-link" href="#Simplex-Method">¶</a></h2><ol start="8">
+<li><p>Chong, Edwin K. P., and Stanislaw H. Źak. <em>An Introduction to Optimization, Second Edition.</em> Wiley-Interscience, 2001.</p>
+</li>
+<li><p>Schmidt, Jack. "Simplex Method: Lab Manual." University of Kentucky, College of Arts and Sciences, Department of Mathematics. <a href="https://www.ms.uky.edu/~jack/2010-01-MA162/2010-02-25-MA162Lab.pdf">https://www.ms.uky.edu/~jack/2010-01-MA162/2010-02-25-MA162Lab.pdf</a>.</p>
+</li>
+<li><p>Goemans, Michel. "Linear Programming Notes." Massachusetts Institute of Technology, Department of Mathematics. <a href="https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf">https://math.mit.edu/~goemans/18310S15/lpnotes310.pdf</a>.</p>
+</li>
+<li><p>Magnanti, Tom, and Jim Orlin. "Optimization Methods in Business Analytics: Solving Linear Programs." <a href="https://web.mit.edu/15.053/www/AMP-Chapter-02.pdf">https://web.mit.edu/15.053/www/AMP-Chapter-02.pdf</a>.</p>
+</li>
+<li><p>Stojiljković, Mirko. "Hands-On Linear Programming: Optimization with Python." Real Python. <a href="https://realpython.com/linear-programming-python/">https://realpython.com/linear-programming-python/</a>.</p>
+</li>
+<li><p>Martinich, Joseph S. "Linear Programming." University of Kentucky. <a href="https://www.uky.edu/~dsianita/300/online/LP.pdf">https://www.uky.edu/~dsianita/300/online/LP.pdf</a>.</p>
+</li>
+<li><p>S, Tom. "Simplex Method Explained." YouTube. <a href="https://www.youtube.com/watch?v=E72DWgKP_1Y&amp;t=652s">https://www.youtube.com/watch?v=E72DWgKP_1Y&amp;t=652s</a>.</p>
+</li>
+</ol>
 </div>
 </div>
 </div>
@@ -11381,13 +11471,13 @@ Optimal x values: [2.57142857 0.85714286]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Libraries">Libraries<a class="anchor-link" href="#Libraries">¶</a></h2><h3 id="Python">Python<a class="anchor-link" href="#Python">¶</a></h3><ul>
+<h1 id="Libraries">Libraries<a class="anchor-link" href="#Libraries">¶</a></h1><h2 id="Python">Python<a class="anchor-link" href="#Python">¶</a></h2><ul>
 <li><code>SymPy</code>, <a href="https://www.sympy.org/en/index.html">https://www.sympy.org/en/index.html</a></li>
 <li><code>Scipy</code>, optimize <a href="https://docs.scipy.org/doc/scipy/reference/optimize.html">https://docs.scipy.org/doc/scipy/reference/optimize.html</a></li>
 <li><code>matplotlib</code>, <a href="https://matplotlib.org">https://matplotlib.org</a></li>
 <li><code>numpy</code>, <a href="https://numpy.org/">https://numpy.org/</a></li>
 </ul>
-<h3 id=".md">.md<a class="anchor-link" href="#.md">¶</a></h3><ul>
+<h2 id=".md">.md<a class="anchor-link" href="#.md">¶</a></h2><ul>
 <li><code>Latex</code>, <a href="https://www.latex-project.org/">https://www.latex-project.org/</a></li>
 </ul>
 </div>
