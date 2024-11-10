@@ -6,8 +6,11 @@
 
 # Introduction
 
-This project explores the most common numerical optimization methods and algorithms, providing a comprehensive guide to understanding and solving optimization problems. It offers a gradual introduction to optimization, blending mathematical explanations with practical Python implementations. During the coding of the examples the recursive nature of the optimization methods is show by creating modular and reusable code. The coded examples rely on  heavaly on  the pythons capability for functional programing, expressing as close as possible the mathematical relations of the algorithams.  The entire code can be executed using Jupyter Notebook or Google Colab.
+The book contains three chapters. It begins with a basic introduction to Python, followed by linear algebra concepts and their implementation in Python. In the final chapter, foundational optimization algorithms are introduced, where all previously explained concepts and developed algorithms are put to use. This structured progression allows readers to build essential Python skills for mathematical applications, establishing a solid foundation for understanding basic optimization algorithms. It also serves as a valuable introduction to using Python for various mathematical tasks and projects.
 
+Specific attention is maintained on a structured approach where the code is modular and reusable. The recursive nature of optimization methods is illustrated through this modular design, and Python's functional programming capabilities are leveraged by passing functions as arguments to define iteration logic, convergence criteria, and method-specific computations. This approach allows the mathematical relationships within each algorithm to be clearly represented, emphasizing both reusability and the structural similarities and differences across methods. The methods are developed gradually, with more complex techniques relying on functions initially crafted for simpler methods, reinforcing understanding through progressive complexity.
+
+The entire code is designed to be executed in Jupyter Notebook or Google Colab, offering readers an interactive environment to experiment with each optimization technique. This hands-on approach not only deepens understanding but also makes Python a practical tool for mathematical and optimization-based applications.
 
 \newpage
 # Python Introduction
@@ -203,13 +206,14 @@ x14: None = None
 
 
 Python provides several built-in operators for basic arithmetic operations. These are the most common ones:
-* Addition (+): Adds two numbers together.
-* Subtraction (-): Subtracts one number from another.
-* Multiplication (*): Multiplies two numbers.
-* Division (/): Divides one number by another (returns a float).
-* Integer Division (//): Divides one number by another and returns the integer part of the result.
-* Modulo (%), returns the remainder when one number is divided by another
-* Exponentiation (**): Raises one number to the power of another.
+ 
+* Addition (+): Adds two numbers together. 
+* Subtraction (-): Subtracts one number from another. 
+* Multiplication (*): Multiplies two numbers. 
+* Division (/): Divides one number by another (returns a float). 
+* Integer Division (//): Divides one number by another and returns the integer part of the result. 
+* Modulo (%), returns the remainder when one number is divided by another.
+* Exponentiation (**): Raises one number to the power of another. 
 
 
 **Example**. Demonstrate the usage the most common built-in operators in Python.
@@ -220,21 +224,27 @@ Python provides several built-in operators for basic arithmetic operations. Thes
 # Addition
 result = 5 + 3
 print("Addition:", result)
+
 # Subtraction
 result = 5 - 3
 print("Subtraction:", result)
+
 # Multiplication
 result = 5 * 3
 print("Multiplication:", result)
+
 # Division
 result = 5 / 3
 print("Division:", result)
+
 # Integer Division
 result = 5 // 3
 print("Integer Division:", result)
+
 # Modulo
 result = 5 % 3
 print("Modulo:", result)
+
 # Exponentiation
 result = 2 ** 3
 print("Exponentiation:", result)
@@ -400,13 +410,14 @@ lambda parameters: expression
 def sum_standard_function(x, y):
     result = x + y
     return result
+
 # Call the standard function and print the output
 sum_standard = sum_standard_function(3, 5)
 print(f"Using Standard Function: {sum_standard}")
 
 sum_lambda_function = lambda x, y: x + y
-# Call the lambda function and print the output
 
+# Call the lambda function and print the output
 sum_lambda = sum_lambda_function(3, 5)
 print(f"Using Lambda Function: {sum_lambda}")
 ```
@@ -443,7 +454,7 @@ print(f"The approximation of the derivate of a function x^2 in x = 3 is {derivat
     The approximation of the derivate of a function x^2 in x = 3 is 6.000000000039306
 
 
-### Libraries and modules
+## Libraries and modules
 
 Basic arithmetic operations with functions in Python include finding the absolute value using `abs` and calculating the square root using `math.sqrt`. The `abs` function is part of Python's standard library, while `sqrt` is part of the math library, which is commonly used but not included in the base library. Libraries are collections of modules, and modules are collections of functions and classes that are used for similar purposes. The math library needs to be imported before it is used. To do so, write `import math` before using it. Once imported, the functions and classes inside the library can be used by accessing them with dot notation. For example, `math.sqrt(9)` will return 3 as it calculates the square root of nine.
 
@@ -476,11 +487,13 @@ print(f"The square root of the absolute value of {number} is {result}")
 Python uses `True` and `False` as boolean values.
 
 The most popular logical operators are:
+
 * `and`
 * `or`
 * `not`
 
 Comparing values is done with:
+
 * `<`, `<=`
 * `>`, `>=`
 * `==`
@@ -517,6 +530,7 @@ print("Max of 50, 40, and 30:", max_of_three(50, 40, 30))  # Output: 50
 # Example 3
 def is_a_greater_than_b(a, b):
     return a > b
+  
 # Example 4
 def print_first_n(n:int):
   print(f"First {n} positive integers:")
@@ -1088,6 +1102,7 @@ Transposing a matrix in NumPy can be done using `A.T`, where `A` is the matrix. 
 
 ```python
 import numpy as np
+
 # Example 1
 # Creating a 2D array (matrix)
 a = np.array([1, 2, 3])
@@ -1986,11 +2001,12 @@ These changes will contribute to more flexibility in creating the approximation 
 ```python
 import numpy as np
 
-
 # As all of the approximation methods will have the same interface a
-# a general function can be created that can take any starting values, any method
-# specific step function and any stop criterion function
-# and generate a approximation method
+# As all approximation methods will have the same interface,
+# a general function can be created that takes any starting values, 
+# any method-specific step function, and any stop criterion function, 
+# and generates an approximation method.
+
 def general_approximation_iterator(approximations_in, stepfunction_in, stop_criterion_in):
  while(not stop_criterion_in(approximations_in)):
    approx = stepfunction_in(approximations_in)
@@ -2006,7 +2022,6 @@ def f_derivative_1(x_in):
 def f_derivative_2(x_in):
  return 1 + np.sin(x_in)
 
-
 x_approximations = []
 x_approximations.append(0.5)
 
@@ -2018,7 +2033,6 @@ def step_newtons_method_builder(f_dv_1_in, f_dv_2_in):
    return approximations_in[-1] - der1/der2
  return step_function
 
-
 def stop_criterion_relative_step(accuracy_in: float):
  def stop_function(approximations_in):
    if(len(approximations_in)>=2):
@@ -2027,19 +2041,15 @@ def stop_criterion_relative_step(accuracy_in: float):
    return False
  return stop_function
 
-
 def newtons_method(approximations_in, step_function_in, stop_criterion_in):
  return general_approximation_iterator(approximations_in, step_function_in, stop_criterion_in)
-
 
 step_newtons_method = step_newtons_method_builder(f_derivative_1, f_derivative_2)
 accuracy = 0.0000001
 stop_newtons_method = stop_criterion_relative_step(accuracy)
 
-
 x_approximations = newtons_method(x_approximations, step_newtons_method, stop_newtons_method)
 print(f"Minimizer calculated manually X={x_approximations[-1]}")
-
 
 # Example. 2
 from scipy.optimize import newton
@@ -2075,19 +2085,16 @@ def g(x):
 def g_derivative(x):
  return 3*x**2 - 24.4*x + 7.45
 
-
 # Example 1
 # this block uses the previous block functions
 step_newtons_method = step_newtons_method_builder(g, g_derivative)
 accuracy = 0.000001
 stop_newtons_method = stop_criterion_relative_step(accuracy)
 
-
 x_approximations = []
 x_approximations.append(12)
 x_approximations = newtons_method(x_approximations, step_newtons_method, stop_newtons_method)
 print(f"Root manually calculated, X={x_approximations[-1]}")
-
 
 # plot the function and the approximations
 import matplotlib.pyplot as plt
@@ -2098,7 +2105,6 @@ plt.plot(x_plot, g(x_plot))
 plt.plot(x_plot, g_derivative(x_approximations[0])*x_plot + g(x_approximations[0])-g_derivative(x_approximations[0])*x_approximations[0])
 plt.grid()
 plt.show()
-
 
 # Example 2
 from scipy.optimize import newton
@@ -2169,7 +2175,6 @@ x_approximations.append(12)
 stop_criterion_secant = stop_criterion_relative_step(1e-12)
 
 secant_method(x_approximations, g , stop_criterion_secant)
-
 
 for element in enumerate(x_approximations):
     print(f"Step {element[0]} approximation value {element[1]},")
@@ -2333,15 +2338,12 @@ print(f"The algorithm achieved accuracy of {accuracy} in {len(approximations_gra
 
 ## Gradient with step adjustment, Steepest descent
 
-
 In-order to optimize $\alpha_k$ when minimizing $f$, it is requeued to finding a positive $\alpha_k$ so for the next $\pmb{x^{(k+1)}}$, $\pmb{x^{(k+1)}} = \pmb{x^{(k)}} - \alpha_k \nabla f(\pmb{x^{(k)}})$ the function $f(\pmb{x^{(k+1)}})$ will have the smallest possible value.
 
 Since the vectors/dots, $\pmb{x^{(k)}}$ and $\nabla f(\pmb{x^{(k)}})$ are already know, optimizing $\alpha_k$ would be finding a minimum of the one dimensional function:
 $$argmin(\alpha_k) = f(\pmb{x^{(k)}} - \alpha_k \nabla f(\pmb{x^{(k)}}))$$
 
-
 The minimizer of $argmin(\alpha_k)$ can be found using some of the previous approximation methods that are applicable on one dimensional functions.
-
 
 **Examples:**
 
@@ -2419,8 +2421,6 @@ def gradient_method_with_alpha_adjustment(f_in,
                              ),
                              stop_criterion_in)
 
-
-
 x0 = np.array([4, 2, -1])
 x_approximations = [x0]
 
@@ -2433,11 +2433,11 @@ gradient_method_with_alpha_adjustment(f_in = f,
                                         approximation_method_in = secant_method,
                                         stop_criterion_in = stop_criterion_relative_step(0.0001)
                                       ))
+
 # Print the result
 print("The minimum of f using the manually written algorithm is in ",
       x_approximations[-1], " and the minimum value is : ",
       f(x_approximations[-1]))
-
 
 # Example 2
 from scipy.optimize import minimize
@@ -2811,11 +2811,9 @@ The algorithm starts as a tableau of the given LP problem:
 # Since x_1, x_2 = 0 is not a solution, it can be concluded that the initial
 # basic solution is not obvious
 
-
 # Then artificial variables, x_5 and x_6 >= 0 and a new
 # artificial objective function x_5 + x_6, that
 # needs to be maximized are introduced
-
 
 # The artificial problem will have the following form:
 #          minimize:
@@ -3029,7 +3027,7 @@ print("Optimal x values:", res.x)
 
 4. Turing. "Using `sympy` with Symbols." [https://www.turing.com/kb/derivative-functions-in-python](https://www.turing.com/kb/derivative-functions-in-python).
 
-### Linear Algebra
+## Linear Algebra
 
 5. Wikipedia. "Dot-product." [https://en.wikipedia.org/wiki/Dot_product#Definition](https://en.wikipedia.org/wiki/Dot_product#Definition).
 
@@ -3068,7 +3066,3 @@ print("Optimal x values:", res.x)
 
 ## .md
 * `Latex`, https://www.latex-project.org/
-
-
-
-
