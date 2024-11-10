@@ -3,6 +3,13 @@
 \tableofcontents
 
 \newpage
+
+# Introduction
+
+This project explores the most common numerical optimization methods and algorithms, providing a comprehensive guide to understanding and solving optimization problems. It offers a gradual introduction to optimization, blending mathematical explanations with practical Python implementations. During the coding of the examples the recursive nature of the optimization methods is show by creating modular and reusable code. The coded examples rely on  heavaly on  the pythons capability for functional programing, expressing as close as possible the mathematical relations of the algorithams.  The entire code can be executed using Jupyter Notebook or Google Colab.
+
+
+\newpage
 # Python Introduction
 
 Python is a general-purpose high-level programming language. It was invented in the late '80s, and its current major version is 3. Important features and characteristics of Python include:
@@ -620,19 +627,19 @@ plt.show()
 
 
     
-![png](optimizationmethods_files/optimizationmethods_40_0.png)
+![png](optimizationmethods_files/optimizationmethods_41_0.png)
     
 
 
 
     
-![png](optimizationmethods_files/optimizationmethods_40_1.png)
+![png](optimizationmethods_files/optimizationmethods_41_1.png)
     
 
 
 
     
-![png](optimizationmethods_files/optimizationmethods_40_2.png)
+![png](optimizationmethods_files/optimizationmethods_41_2.png)
     
 
 
@@ -1221,7 +1228,7 @@ print(f"the value of f(x_1..x_4)=3x1+5x2-4x3+19x4+3 in x=(3,4,5,1) is {fx}")
 
 
     
-![png](optimizationmethods_files/optimizationmethods_57_1.png)
+![png](optimizationmethods_files/optimizationmethods_58_1.png)
     
 
 
@@ -1944,7 +1951,7 @@ print(f"The minimizer using the minimize_scalar algorithm is equal to X= {minimi
 
 
     
-![png](optimizationmethods_files/optimizationmethods_76_1.png)
+![png](optimizationmethods_files/optimizationmethods_77_1.png)
     
 
 
@@ -2106,7 +2113,7 @@ print(f"Root calculated with scipy.optimize.newton, X={root_newton}")
 
 
     
-![png](optimizationmethods_files/optimizationmethods_82_1.png)
+![png](optimizationmethods_files/optimizationmethods_83_1.png)
     
 
 
@@ -2176,7 +2183,7 @@ print("Root found by scipy.optimize.newton Secant method:", root_secant)
 
 
     
-![png](optimizationmethods_files/optimizationmethods_83_0.png)
+![png](optimizationmethods_files/optimizationmethods_84_0.png)
     
 
 
