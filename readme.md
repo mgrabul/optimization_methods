@@ -21,7 +21,7 @@ This book aims to provide both theoretical knowledge and practical skills, focus
 ## Visual Studio setup
 The following notes are useful for running the project locally:
 
-### Visual studio setup
+### Visual Studio setup
 https://code.visualstudio.com/docs/python/python-quick-start
 
 ### Setup conda
